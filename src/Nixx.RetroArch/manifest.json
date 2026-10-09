@@ -1,0 +1,14 @@
+{
+  "SchemaVersion": 1,
+  "PluginId": "2065cf86-40a6-410a-b0f9-f62a9b616ebe",
+  "UserId": 0,
+  "Name": "Nixx-RetroArch",
+  "Developer": "nixxou",
+  "Description": "Faithful clean-room clone of the RetroArch integration for LaunchBox, written without any Unbroken code.",
+  "OperatingSystemFamily": "Windows",
+  "InstalledVersion": "1.12",
+  "SourceKind": "Local",
+  "Tags": [
+    "5aae585f-ffc5-42bc-9f95-e5e190ef99e2"
+  ]
+}

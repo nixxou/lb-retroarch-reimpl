@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Sonde A/B en boite noire : appelle l'original (DLL de LaunchBox, en lecture seule) et le clone sur les memes
+    entrees, puis compare valeurs rendues, exceptions, disque et BiosFile.SystemFolder.
+    Rejouer depuis la racine du depot : voir Runner.ReplayCommand (dotnet run, configuration Release).
+  -->
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>AbProbe</RootNamespace>
+    <!-- Racine de LaunchBox lue (jamais ecrite) : SDK de greffons et assemblies de LaunchBox. -->
+    <LbCore Condition="'$(LbCore)' == ''">G:\LB1326\Core</LbCore>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="FakeRetroArch\**" />
+    <None Remove="FakeRetroArch\**" />
+    <None Remove="last-run.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Compile contre le SDK de LaunchBox ; a l'execution, tout vient de $(LbCore) (Private=false). -->
+    <Reference Include="Unbroken.LaunchBox.Plugins">
+      <HintPath>$(LbCore)\Unbroken.LaunchBox.Plugins.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Construits avant la sonde ; leurs sorties ne sont pas referencees. -->
+    <ProjectReference Include="..\..\src\Nixx.RetroArch\Nixx.RetroArch.csproj" ReferenceOutputAssembly="false" Private="false" />
+    <ProjectReference Include="FakeRetroArch\FakeRetroArch.csproj" ReferenceOutputAssembly="false" Private="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute">
+      <_Parameter1>LbCore</_Parameter1>
+      <_Parameter2>$(LbCore)</_Parameter2>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute">
+      <_Parameter1>Configuration</_Parameter1>
+      <_Parameter2>$(Configuration)</_Parameter2>
+    </AssemblyAttribute>
+  </ItemGroup>
+
+  <!-- Le faux retroarch.exe est copie dans bin\...\fake\ ; la sonde le recopie dans chaque dossier de cas. -->
+  <Target Name="CopyFakeRetroArch" AfterTargets="Build">
+    <ItemGroup>
+      <FakeRetroArchOut Include="FakeRetroArch\bin\$(Configuration)\net10.0\retroarch.*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(FakeRetroArchOut)" DestinationFolder="$(OutDir)fake" SkipUnchangedFiles="true" />
+  </Target>
+
+</Project>

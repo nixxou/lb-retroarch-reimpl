@@ -1,0 +1,631 @@
+CoreName	Platform	BiosDesc	BiosPath	MD5	Required	GroupId	GroupDesc	IsGroupRequired	GroupRequirements(None|Any|All)
+4do_libretro	Panasonic 3DO	Panasonic FZ-1 BIOS	panafz1.bin	f47264dd47fe30f73ab3c010015c155b	FALSE	0	System BIOS	TRUE	Any
+4do_libretro	Panasonic 3DO	Panasonic FZ-10 BIOS	panafz10.bin	51f2f43ae2f3508a14d9f56597e2d3ce	FALSE	0	System BIOS	TRUE	Any
+4do_libretro	Panasonic 3DO	Panasonic FZ-10 BIOS [RSA Patch]	panafz10-patched.bin	1477bda80dc33731a65468c1f5bcbee9	FALSE	0	System BIOS	TRUE	Any
+4do_libretro	Panasonic 3DO	Panasonic FZ-10E BIOS [Anvil]	panafz10e-anvil.bin	a48e6746bd7edec0f40cff078f0bb19f	FALSE	0	System BIOS	TRUE	Any
+4do_libretro	Panasonic 3DO	Panasonic FZ-10E BIOS [Anvil RSA Patch]	panafz10e-anvil-patched.bin	cf11bbb5a16d7af9875cca9de9a15e09	FALSE	0	System BIOS	TRUE	Any
+4do_libretro	Panasonic 3DO	Goldstar GDO-101M BIOS	goldstar.bin	8639fd5e549bd6238cfee79e3e749114	FALSE	0	System BIOS	TRUE	Any
+4do_libretro	Panasonic 3DO	Sanyo Try IMP-21J BIOS	sanyotry.bin	35fa1a1ebaaeea286dc5cd15487c13ea	FALSE	0	System BIOS	TRUE	Any
+4do_libretro	Panasonic 3DO	Shootout At Old Tucson BIOS	3do_arcade_saot.bin	8970fc987ab89a7f64da9f8a8c4333ff	FALSE	0	System BIOS	TRUE	Any
+4do_libretro	Panasonic 3DO	Panasonic FZ-1 Kanji Font ROM	panafz1-kanji.bin	b8dc97f778a6245c58e064b0312e8281	FALSE	1	Optional Font Files (may be required for some Japanese games!)	FALSE	None
+4do_libretro	Panasonic 3DO	Panasonic FZ-10JA Kanji Font ROM	panafz10ja-anvil-kanji.bin	428577250f43edc902ea239c50d2240d	FALSE	1	Optional Font Files (may be required for some Japanese games!)	FALSE	None
+4do_libretro	Panasonic 3DO	Panasonic FZ-1J Kanji ROM	panafz1j-kanji.bin	c23fb5d5e6bb1c240d02cf968972be37	FALSE	1	Optional Font Files (may be required for some Japanese games!)	FALSE	None
+a5200_libretro	Atari 5200	Atari 5200 BIOS	5200.rom	281f20ea4320404ec820fb7ec0693b38	FALSE				
+atari800_libretro	Atari 5200	Atari 5200 BIOS	5200.rom	281f20ea4320404ec820fb7ec0693b38	TRUE				
+atari800_libretro	Atari 5200	Atari BASIC	ATARIBAS.ROM	0bac0c6a50104045d902df4503a4c30b	TRUE				
+atari800_libretro	Atari 800	Atari 400/800 OS A	ATARIOSA.ROM	eb1f32f5d9f382db1bbfb8d7f9cb343a	TRUE	0	System BIOS	TRUE	Any
+atari800_libretro	Atari 800	Atari 400/800 OS B	ATARIOSB.ROM	a3e8d617c95d08031fe1b20d541434b2	TRUE	0	System BIOS	TRUE	Any
+atari800_libretro	Atari XEGS	Atari XL/XE OS	ATARIXL.ROM	06daac977823773a3eea3422fd26a703	TRUE				
+bk_libretro	Elektronika BK	bk/B11M_BOS.ROM	bk/B11M_BOS.ROM	fe4627d1e3a1535874085050733263e7	FALSE				
+bk_libretro	Elektronika BK	bk/B11M_EXT.ROM	bk/B11M_EXT.ROM	dc52f365d56fa1951f5d35b1101b9e3f	FALSE				
+bk_libretro	Elektronika BK	bk/BAS11M_0.ROM	bk/BAS11M_0.ROM	946f6f23ded03c0e26187f0b3ca75993	FALSE				
+bk_libretro	Elektronika BK	bk/BAS11M_1.ROM	bk/BAS11M_1.ROM	1e6637f32aa7d1de03510030cac40bcf	FALSE				
+bk_libretro	Elektronika BK	bk/DISK_327.ROM	bk/DISK_327.ROM	5015228eeeb238e65da8edcd1b6dfac7	FALSE				
+bk_libretro	Elektronika BK	bk/BASIC10.ROM	bk/BASIC10.ROM	3fa774326d75410a065659aea80252f0	FALSE				
+bk_libretro	Elektronika BK	bk/FOCAL10.ROM	bk/FOCAL10.ROM	5737f972e8638831ab71e9139abae052	FALSE				
+bk_libretro	Elektronika BK	bk/MONIT10.ROM	bk/MONIT10.ROM	95f8c41c6abf7640e35a6a03cecebd01	FALSE				
+blastem_libretro	Sega Genesis	ROM feature database	rom.db		FALSE				
+bluemsx_libretro		Databases' folder	Databases/msxromdb.xml		TRUE				
+bluemsx_libretro		Machines' folder	Machines/Shared Roms/MSX.rom		TRUE				
+bsnes_hd_beta_libretro	Super Nintendo Entertainment System	DSP1 co-processor firmware	dsp1.data.rom	3d81b45fa0c2aa8b852dfb1ece7c0971	FALSE	0	DSP1 co-processor firmware	FALSE	All
+bsnes_hd_beta_libretro	Super Nintendo Entertainment System	ST010 co-processor firmware	st010.data.rom	254d70762b6f59f99c27c395aba7d07d	FALSE	5	ST010 co-processor firmware	FALSE	All
+bsnes_hd_beta_libretro	Super Nintendo Entertainment System	DSP1 co-processor firmware	dsp1.program.rom	ae209fbe789fbf11a48aea5ab1197321	FALSE	0	DSP1 co-processor firmware	FALSE	All
+bsnes_hd_beta_libretro	Super Nintendo Entertainment System	DSP1B co-processor firmware	dsp1b.data.rom	1e3f568634a7d8284020dddc0ae905bc	FALSE	1	DSP1B co-processor firmware	FALSE	All
+bsnes_hd_beta_libretro	Super Nintendo Entertainment System	ST010 co-processor firmware	st010.program.rom	1d70019179a59a566a0bb5d3f2845544	FALSE	5	ST010 co-processor firmware	FALSE	All
+bsnes_hd_beta_libretro	Super Nintendo Entertainment System	DSP1B co-processor firmware	dsp1b.program.rom	d10f446888e097cbf500f3f663cf4f6d	FALSE	1	DSP1B co-processor firmware	FALSE	All
+bsnes_hd_beta_libretro	Super Nintendo Entertainment System	CX4 co-processor firmware	cx4.data.rom	037ac4296b6b6a5c47c440188d3c72e3	FALSE				
+bsnes_hd_beta_libretro	Super Nintendo Entertainment System	SGB ROM	SGB1.sfc	b15ddb15721c657d82c5bab6db982ee9	FALSE				
+bsnes_hd_beta_libretro	Super Nintendo Entertainment System	DSP2 co-processor firmware	dsp2.data.rom	e9417e29223b139c3c4b635a2a3b8744	FALSE	2	DSP2 co-processor firmware	FALSE	All
+bsnes_hd_beta_libretro	Super Nintendo Entertainment System	ST011 co-processor firmware	st011.data.rom	10bd3f4aa949737ab9836512c35bcc29	FALSE	6	ST011 co-processor firmware	FALSE	All
+bsnes_hd_beta_libretro	Super Nintendo Entertainment System	DSP2 co-processor firmware	dsp2.program.rom	aa6e5922a3ed5ded54f24247c11143c5	FALSE	2	DSP2 co-processor firmware	FALSE	All
+bsnes_hd_beta_libretro	Super Nintendo Entertainment System	DSP3 co-processor firmware	dsp3.data.rom	0a81210c0a940b997dd9843281008ee6	FALSE	3	DSP3 co-processor firmware	FALSE	All
+bsnes_hd_beta_libretro	Super Nintendo Entertainment System	ST011 co-processor firmware	st011.program.rom	95222ebf1c0c2990bcf25db43743f032	FALSE	6	ST011 co-processor firmware	FALSE	All
+bsnes_hd_beta_libretro	Super Nintendo Entertainment System	ST018 co-processor firmware	st018.data.rom	49c898b60d0f15e90d0ba780dd12f366	FALSE	7	ST018 co-processor firmware	FALSE	All
+bsnes_hd_beta_libretro	Super Nintendo Entertainment System	DSP3 co-processor firmware	dsp3.program.rom	d99ca4562818d49cee1f242705bba6f8	FALSE	3	DSP3 co-processor firmware	FALSE	All
+bsnes_hd_beta_libretro	Super Nintendo Entertainment System	DSP4 co-processor firmware	dsp4.data.rom	ee4990879eb68e3cbca239c5bc20303d	FALSE	4	DSP4 co-processor firmware	FALSE	All
+bsnes_hd_beta_libretro	Super Nintendo Entertainment System	ST018 co-processor firmware	st018.program.rom	dda40ccd57390c96e49d30a041f9a9e7	FALSE	7	ST018 co-processor firmware	FALSE	All
+bsnes_hd_beta_libretro	Super Nintendo Entertainment System	DSP4 co-processor firmware	dsp4.program.rom	a151023b948b90ffc23a5b594bb6fef2	FALSE	4	DSP4 co-processor firmware	FALSE	All
+bsnes_hd_beta_libretro	Super Nintendo Entertainment System	SGB2 ROM	SGB2.sfc	8ecd73eb4edf7ed7e81aef1be80031d5	FALSE				
+bsnes_libretro	Super Nintendo Entertainment System	SGB ROM	SGB1.sfc	b15ddb15721c657d82c5bab6db982ee9	FALSE				
+bsnes_libretro	Super Nintendo Entertainment System	DSP1 co-processor firmware	dsp1.data.rom	3d81b45fa0c2aa8b852dfb1ece7c0971	FALSE	0	DSP1 co-processor firmware	FALSE	All
+bsnes_libretro	Super Nintendo Entertainment System	ST010 co-processor firmware	st010.data.rom	254d70762b6f59f99c27c395aba7d07d	FALSE	5	ST010 co-processor firmware	FALSE	All
+bsnes_libretro	Super Nintendo Entertainment System	DSP1 co-processor firmware	dsp1.program.rom	ae209fbe789fbf11a48aea5ab1197321	FALSE	0	DSP1 co-processor firmware	FALSE	All
+bsnes_libretro	Super Nintendo Entertainment System	DSP1B co-processor firmware	dsp1b.data.rom	1e3f568634a7d8284020dddc0ae905bc	FALSE	1	DSP1B co-processor firmware	FALSE	All
+bsnes_libretro	Super Nintendo Entertainment System	ST010 co-processor firmware	st010.program.rom	1d70019179a59a566a0bb5d3f2845544	FALSE	5	ST010 co-processor firmware	FALSE	All
+bsnes_libretro	Super Nintendo Entertainment System	DSP1B co-processor firmware	dsp1b.program.rom	d10f446888e097cbf500f3f663cf4f6d	FALSE	1	DSP1B co-processor firmware	FALSE	All
+bsnes_libretro	Super Nintendo Entertainment System	DSP2 co-processor firmware	dsp2.data.rom	e9417e29223b139c3c4b635a2a3b8744	FALSE	2	DSP2 co-processor firmware	FALSE	All
+bsnes_libretro	Super Nintendo Entertainment System	CX4 co-processor firmware	cx4.data.rom	037ac4296b6b6a5c47c440188d3c72e3	FALSE				
+bsnes_libretro	Super Nintendo Entertainment System	ST011 co-processor firmware	st011.data.rom	10bd3f4aa949737ab9836512c35bcc29	FALSE	6	ST011 co-processor firmware	FALSE	All
+bsnes_libretro	Nintendo Satellaview	Satellaview Boot ROM	BS-X.bin	fed4d8242cfbed61343d53d48432aced	FALSE				
+bsnes_libretro	Super Nintendo Entertainment System	DSP2 co-processor firmware	dsp2.program.rom	aa6e5922a3ed5ded54f24247c11143c5	FALSE	2	DSP2 co-processor firmware	FALSE	All
+bsnes_libretro	Super Nintendo Entertainment System	ST011 co-processor firmware	st011.program.rom	95222ebf1c0c2990bcf25db43743f032	FALSE	6	ST011 co-processor firmware	FALSE	All
+bsnes_libretro	Super Nintendo Entertainment System	DSP3 co-processor firmware	dsp3.data.rom	0a81210c0a940b997dd9843281008ee6	FALSE	3	DSP3 co-processor firmware	FALSE	All
+bsnes_libretro	Super Nintendo Entertainment System	DSP3 co-processor firmware	dsp3.program.rom	d99ca4562818d49cee1f242705bba6f8	FALSE	3	DSP3 co-processor firmware	FALSE	All
+bsnes_libretro	Super Nintendo Entertainment System	ST018 co-processor firmware	st018.data.rom	49c898b60d0f15e90d0ba780dd12f366	FALSE	7	ST018 co-processor firmware	FALSE	All
+bsnes_libretro	Super Nintendo Entertainment System	DSP4 co-processor firmware	dsp4.data.rom	ee4990879eb68e3cbca239c5bc20303d	FALSE	4	DSP4 co-processor firmware	FALSE	All
+bsnes_libretro	Super Nintendo Entertainment System	ST018 co-processor firmware	st018.program.rom	dda40ccd57390c96e49d30a041f9a9e7	FALSE	7	ST018 co-processor firmware	FALSE	All
+bsnes_libretro	Super Nintendo Entertainment System	DSP4 co-processor firmware	dsp4.program.rom	a151023b948b90ffc23a5b594bb6fef2	FALSE	4	DSP4 co-processor firmware	FALSE	All
+bsnes_libretro	Super Nintendo Entertainment System	SGB2 ROM	SGB2.sfc	8ecd73eb4edf7ed7e81aef1be80031d5	FALSE				
+bsnes_mercury_accuracy_libretro	Super Nintendo Entertainment System	DSP1 co-processor firmware	dsp1.data.rom	3d81b45fa0c2aa8b852dfb1ece7c0971	FALSE	0	DSP1 co-processor firmware	FALSE	All
+bsnes_mercury_accuracy_libretro	Super Nintendo Entertainment System	ST010 co-processor firmware	st010.data.rom	254d70762b6f59f99c27c395aba7d07d	FALSE	5	ST010 co-processor firmware	FALSE	All
+bsnes_mercury_accuracy_libretro	Super Nintendo Entertainment System	DSP1 co-processor firmware	dsp1.program.rom	ae209fbe789fbf11a48aea5ab1197321	FALSE	0	DSP1 co-processor firmware	FALSE	All
+bsnes_mercury_accuracy_libretro	Super Nintendo Entertainment System	DSP1B co-processor firmware	dsp1b.data.rom	1e3f568634a7d8284020dddc0ae905bc	FALSE	1	DSP1B co-processor firmware	FALSE	All
+bsnes_mercury_accuracy_libretro	Super Nintendo Entertainment System	ST010 co-processor firmware	st010.program.rom	1d70019179a59a566a0bb5d3f2845544	FALSE	5	ST010 co-processor firmware	FALSE	All
+bsnes_mercury_accuracy_libretro	Super Nintendo Entertainment System	DSP1B co-processor firmware	dsp1b.program.rom	d10f446888e097cbf500f3f663cf4f6d	FALSE	1	DSP1B co-processor firmware	FALSE	All
+bsnes_mercury_accuracy_libretro	Super Nintendo Entertainment System	DSP2 co-processor firmware	dsp2.data.rom	e9417e29223b139c3c4b635a2a3b8744	FALSE	2	DSP2 co-processor firmware	FALSE	All
+bsnes_mercury_accuracy_libretro	Super Nintendo Entertainment System	ST011 co-processor firmware	st011.data.rom	10bd3f4aa949737ab9836512c35bcc29	FALSE	6	ST011 co-processor firmware	FALSE	All
+bsnes_mercury_accuracy_libretro	Super Nintendo Entertainment System	CX4 co-processor firmware	cx4.data.rom	037ac4296b6b6a5c47c440188d3c72e3	FALSE				
+bsnes_mercury_accuracy_libretro	Super Nintendo Entertainment System	Super Game Boy BIOS	sgb.boot.rom		FALSE				
+bsnes_mercury_accuracy_libretro	Super Nintendo Entertainment System	DSP2 co-processor firmware	dsp2.program.rom	aa6e5922a3ed5ded54f24247c11143c5	FALSE	2	DSP2 co-processor firmware	FALSE	All
+bsnes_mercury_accuracy_libretro	Super Nintendo Entertainment System	ST011 co-processor firmware	st011.program.rom	95222ebf1c0c2990bcf25db43743f032	FALSE	6	ST011 co-processor firmware	FALSE	All
+bsnes_mercury_accuracy_libretro	Super Nintendo Entertainment System	DSP3 co-processor firmware	dsp3.data.rom	0a81210c0a940b997dd9843281008ee6	FALSE	3	DSP3 co-processor firmware	FALSE	All
+bsnes_mercury_accuracy_libretro	Super Nintendo Entertainment System	DSP3 co-processor firmware	dsp3.program.rom	d99ca4562818d49cee1f242705bba6f8	FALSE	3	DSP3 co-processor firmware	FALSE	All
+bsnes_mercury_accuracy_libretro	Super Nintendo Entertainment System	ST018 co-processor firmware	st018.data.rom	49c898b60d0f15e90d0ba780dd12f366	FALSE	7	ST018 co-processor firmware	FALSE	All
+bsnes_mercury_accuracy_libretro	Super Nintendo Entertainment System	DSP4 co-processor firmware	dsp4.data.rom	ee4990879eb68e3cbca239c5bc20303d	FALSE	4	DSP4 co-processor firmware	FALSE	All
+bsnes_mercury_accuracy_libretro	Super Nintendo Entertainment System	ST018 co-processor firmware	st018.program.rom	dda40ccd57390c96e49d30a041f9a9e7	FALSE	7	ST018 co-processor firmware	FALSE	All
+bsnes_mercury_accuracy_libretro	Super Nintendo Entertainment System	DSP4 co-processor firmware	dsp4.program.rom	a151023b948b90ffc23a5b594bb6fef2	FALSE	4	DSP4 co-processor firmware	FALSE	All
+bsnes_mercury_balanced_libretro	Super Nintendo Entertainment System	DSP1 co-processor firmware	dsp1.data.rom	3d81b45fa0c2aa8b852dfb1ece7c0971	FALSE	0	DSP1 co-processor firmware	FALSE	All
+bsnes_mercury_balanced_libretro	Super Nintendo Entertainment System	DSP1 co-processor firmware	dsp1.program.rom	ae209fbe789fbf11a48aea5ab1197321	FALSE	0	DSP1 co-processor firmware	FALSE	All
+bsnes_mercury_balanced_libretro	Super Nintendo Entertainment System	ST010 co-processor firmware	st010.data.rom	254d70762b6f59f99c27c395aba7d07d	FALSE	5	ST010 co-processor firmware	FALSE	All
+bsnes_mercury_balanced_libretro	Super Nintendo Entertainment System	DSP1B co-processor firmware	dsp1b.data.rom	1e3f568634a7d8284020dddc0ae905bc	FALSE	1	DSP1B co-processor firmware	FALSE	All
+bsnes_mercury_balanced_libretro	Super Nintendo Entertainment System	ST010 co-processor firmware	st010.program.rom	1d70019179a59a566a0bb5d3f2845544	FALSE	5	ST010 co-processor firmware	FALSE	All
+bsnes_mercury_balanced_libretro	Super Nintendo Entertainment System	DSP1B co-processor firmware	dsp1b.program.rom	d10f446888e097cbf500f3f663cf4f6d	FALSE	1	DSP1B co-processor firmware	FALSE	All
+bsnes_mercury_balanced_libretro	Super Nintendo Entertainment System	ST011 co-processor firmware	st011.data.rom	10bd3f4aa949737ab9836512c35bcc29	FALSE	6	ST011 co-processor firmware	FALSE	All
+bsnes_mercury_balanced_libretro	Super Nintendo Entertainment System	DSP2 co-processor firmware	dsp2.data.rom	e9417e29223b139c3c4b635a2a3b8744	FALSE	2	DSP2 co-processor firmware	FALSE	All
+bsnes_mercury_balanced_libretro	Super Nintendo Entertainment System	DSP2 co-processor firmware	dsp2.program.rom	aa6e5922a3ed5ded54f24247c11143c5	FALSE	2	DSP2 co-processor firmware	FALSE	All
+bsnes_mercury_balanced_libretro	Super Nintendo Entertainment System	CX4 co-processor firmware	cx4.data.rom	037ac4296b6b6a5c47c440188d3c72e3	FALSE				
+bsnes_mercury_balanced_libretro	Super Nintendo Entertainment System	ST011 co-processor firmware	st011.program.rom	95222ebf1c0c2990bcf25db43743f032	FALSE	6	ST011 co-processor firmware	FALSE	All
+bsnes_mercury_balanced_libretro	Super Nintendo Entertainment System	Super Game Boy BIOS	sgb.boot.rom		FALSE				
+bsnes_mercury_balanced_libretro	Super Nintendo Entertainment System	DSP3 co-processor firmware	dsp3.data.rom	0a81210c0a940b997dd9843281008ee6	FALSE	3	DSP3 co-processor firmware	FALSE	All
+bsnes_mercury_balanced_libretro	Super Nintendo Entertainment System	DSP3 co-processor firmware	dsp3.program.rom	d99ca4562818d49cee1f242705bba6f8	FALSE	3	DSP3 co-processor firmware	FALSE	All
+bsnes_mercury_balanced_libretro	Super Nintendo Entertainment System	ST018 co-processor firmware	st018.data.rom	49c898b60d0f15e90d0ba780dd12f366	FALSE	7	ST018 co-processor firmware	FALSE	All
+bsnes_mercury_balanced_libretro	Super Nintendo Entertainment System	DSP4 co-processor firmware	dsp4.data.rom	ee4990879eb68e3cbca239c5bc20303d	FALSE	4	DSP4 co-processor firmware	FALSE	All
+bsnes_mercury_balanced_libretro	Super Nintendo Entertainment System	DSP4 co-processor firmware	dsp4.program.rom	a151023b948b90ffc23a5b594bb6fef2	FALSE	4	DSP4 co-processor firmware	FALSE	All
+bsnes_mercury_balanced_libretro	Super Nintendo Entertainment System	ST018 co-processor firmware	st018.program.rom	dda40ccd57390c96e49d30a041f9a9e7	FALSE	7	ST018 co-processor firmware	FALSE	All
+bsnes_mercury_performance_libretro	Super Nintendo Entertainment System	DSP1 co-processor firmware	dsp1.data.rom	3d81b45fa0c2aa8b852dfb1ece7c0971	FALSE	0	DSP1 co-processor firmware	FALSE	All
+bsnes_mercury_performance_libretro	Super Nintendo Entertainment System	DSP1 co-processor firmware	dsp1.program.rom	ae209fbe789fbf11a48aea5ab1197321	FALSE	0	DSP1 co-processor firmware	FALSE	All
+bsnes_mercury_performance_libretro	Super Nintendo Entertainment System	ST010 co-processor firmware	st010.data.rom	254d70762b6f59f99c27c395aba7d07d	FALSE	5	ST010 co-processor firmware	FALSE	All
+bsnes_mercury_performance_libretro	Super Nintendo Entertainment System	DSP1B co-processor firmware	dsp1b.data.rom	1e3f568634a7d8284020dddc0ae905bc	FALSE	1	DSP1B co-processor firmware	FALSE	All
+bsnes_mercury_performance_libretro	Super Nintendo Entertainment System	ST010 co-processor firmware	st010.program.rom	1d70019179a59a566a0bb5d3f2845544	FALSE	5	ST010 co-processor firmware	FALSE	All
+bsnes_mercury_performance_libretro	Super Nintendo Entertainment System	DSP1B co-processor firmware	dsp1b.program.rom	d10f446888e097cbf500f3f663cf4f6d	FALSE	1	DSP1B co-processor firmware	FALSE	All
+bsnes_mercury_performance_libretro	Super Nintendo Entertainment System	ST011 co-processor firmware	st011.data.rom	10bd3f4aa949737ab9836512c35bcc29	FALSE	6	ST011 co-processor firmware	FALSE	All
+bsnes_mercury_performance_libretro	Super Nintendo Entertainment System	DSP2 co-processor firmware	dsp2.data.rom	e9417e29223b139c3c4b635a2a3b8744	FALSE	2	DSP2 co-processor firmware	FALSE	All
+bsnes_mercury_performance_libretro	Super Nintendo Entertainment System	DSP2 co-processor firmware	dsp2.program.rom	aa6e5922a3ed5ded54f24247c11143c5	FALSE	2	DSP2 co-processor firmware	FALSE	All
+bsnes_mercury_performance_libretro	Super Nintendo Entertainment System	ST011 co-processor firmware	st011.program.rom	95222ebf1c0c2990bcf25db43743f032	FALSE	6	ST011 co-processor firmware	FALSE	All
+bsnes_mercury_performance_libretro	Super Nintendo Entertainment System	DSP3 co-processor firmware	dsp3.data.rom	0a81210c0a940b997dd9843281008ee6	FALSE	3	DSP3 co-processor firmware	FALSE	All
+bsnes_mercury_performance_libretro	Super Nintendo Entertainment System	Super Game Boy BIOS	sgb.boot.rom		FALSE				
+bsnes_mercury_performance_libretro	Super Nintendo Entertainment System	DSP3 co-processor firmware	dsp3.program.rom	d99ca4562818d49cee1f242705bba6f8	FALSE	3	DSP3 co-processor firmware	FALSE	All
+bsnes_mercury_performance_libretro	Super Nintendo Entertainment System	ST018 co-processor firmware	st018.data.rom	49c898b60d0f15e90d0ba780dd12f366	FALSE	7	ST018 co-processor firmware	FALSE	All
+bsnes_mercury_performance_libretro	Super Nintendo Entertainment System	DSP4 co-processor firmware	dsp4.data.rom	ee4990879eb68e3cbca239c5bc20303d	FALSE	4	DSP4 co-processor firmware	FALSE	All
+bsnes_mercury_performance_libretro	Super Nintendo Entertainment System	DSP4 co-processor firmware	dsp4.program.rom	a151023b948b90ffc23a5b594bb6fef2	FALSE	4	DSP4 co-processor firmware	FALSE	All
+bsnes_mercury_performance_libretro	Super Nintendo Entertainment System	ST018 co-processor firmware	st018.program.rom	dda40ccd57390c96e49d30a041f9a9e7	FALSE	7	ST018 co-processor firmware	FALSE	All
+bsnes2014_accuracy_libretro	Super Nintendo Entertainment System	DSP1 co-processor firmware	dsp1.data.rom	3d81b45fa0c2aa8b852dfb1ece7c0971	FALSE	0	DSP1 co-processor firmware	FALSE	All
+bsnes2014_accuracy_libretro	Super Nintendo Entertainment System	CX4 co-processor firmware	cx4.data.rom	037ac4296b6b6a5c47c440188d3c72e3	FALSE				
+bsnes2014_accuracy_libretro	Super Nintendo Entertainment System	ST010 co-processor firmware	st010.data.rom	254d70762b6f59f99c27c395aba7d07d	FALSE	5	ST010 co-processor firmware	FALSE	All
+bsnes2014_accuracy_libretro	Super Nintendo Entertainment System	Super Game Boy BIOS	sgb.boot.rom		FALSE				
+bsnes2014_accuracy_libretro	Super Nintendo Entertainment System	DSP1 co-processor firmware	dsp1.program.rom	ae209fbe789fbf11a48aea5ab1197321	FALSE	0	DSP1 co-processor firmware	FALSE	All
+bsnes2014_accuracy_libretro	Super Nintendo Entertainment System	ST010 co-processor firmware	st010.program.rom	1d70019179a59a566a0bb5d3f2845544	FALSE	5	ST010 co-processor firmware	FALSE	All
+bsnes2014_accuracy_libretro	Super Nintendo Entertainment System	DSP1B co-processor firmware	dsp1b.data.rom	1e3f568634a7d8284020dddc0ae905bc	FALSE	1	DSP1B co-processor firmware	FALSE	All
+bsnes2014_accuracy_libretro	Super Nintendo Entertainment System	DSP1B co-processor firmware	dsp1b.program.rom	d10f446888e097cbf500f3f663cf4f6d	FALSE	1	DSP1B co-processor firmware	FALSE	All
+bsnes2014_accuracy_libretro	Super Nintendo Entertainment System	ST011 co-processor firmware	st011.data.rom	10bd3f4aa949737ab9836512c35bcc29	FALSE	6	ST011 co-processor firmware	FALSE	All
+bsnes2014_accuracy_libretro	Super Nintendo Entertainment System	DSP2 co-processor firmware	dsp2.data.rom	e9417e29223b139c3c4b635a2a3b8744	FALSE	2	DSP2 co-processor firmware	FALSE	All
+bsnes2014_accuracy_libretro	Super Nintendo Entertainment System	DSP2 co-processor firmware	dsp2.program.rom	aa6e5922a3ed5ded54f24247c11143c5	FALSE	2	DSP2 co-processor firmware	FALSE	All
+bsnes2014_accuracy_libretro	Super Nintendo Entertainment System	ST011 co-processor firmware	st011.program.rom	95222ebf1c0c2990bcf25db43743f032	FALSE	6	ST011 co-processor firmware	FALSE	All
+bsnes2014_accuracy_libretro	Super Nintendo Entertainment System	DSP3 co-processor firmware	dsp3.data.rom	0a81210c0a940b997dd9843281008ee6	FALSE	3	DSP3 co-processor firmware	FALSE	All
+bsnes2014_accuracy_libretro	Super Nintendo Entertainment System	DSP3 co-processor firmware	dsp3.program.rom	d99ca4562818d49cee1f242705bba6f8	FALSE	3	DSP3 co-processor firmware	FALSE	All
+bsnes2014_accuracy_libretro	Super Nintendo Entertainment System	ST018 co-processor firmware	st018.data.rom	49c898b60d0f15e90d0ba780dd12f366	FALSE	7	ST018 co-processor firmware	FALSE	All
+bsnes2014_accuracy_libretro	Super Nintendo Entertainment System	DSP4 co-processor firmware	dsp4.data.rom	ee4990879eb68e3cbca239c5bc20303d	FALSE	4	DSP4 co-processor firmware	FALSE	All
+bsnes2014_accuracy_libretro	Super Nintendo Entertainment System	DSP4 co-processor firmware	dsp4.program.rom	a151023b948b90ffc23a5b594bb6fef2	FALSE	4	DSP4 co-processor firmware	FALSE	All
+bsnes2014_accuracy_libretro	Super Nintendo Entertainment System	ST018 co-processor firmware	st018.program.rom	dda40ccd57390c96e49d30a041f9a9e7	FALSE	7	ST018 co-processor firmware	FALSE	All
+bsnes2014_balanced_libretro	Super Nintendo Entertainment System	DSP1 co-processor firmware	dsp1.data.rom	3d81b45fa0c2aa8b852dfb1ece7c0971	FALSE	0	DSP1 co-processor firmware	FALSE	All
+bsnes2014_balanced_libretro	Super Nintendo Entertainment System	ST010 co-processor firmware	st010.data.rom	254d70762b6f59f99c27c395aba7d07d	FALSE	5	ST010 co-processor firmware	FALSE	All
+bsnes2014_balanced_libretro	Super Nintendo Entertainment System	DSP1 co-processor firmware	dsp1.program.rom	ae209fbe789fbf11a48aea5ab1197321	FALSE	0	DSP1 co-processor firmware	FALSE	All
+bsnes2014_balanced_libretro	Super Nintendo Entertainment System	CX4 co-processor firmware	cx4.data.rom	037ac4296b6b6a5c47c440188d3c72e3	FALSE				
+bsnes2014_balanced_libretro	Super Nintendo Entertainment System	Super Game Boy BIOS	sgb.boot.rom		FALSE				
+bsnes2014_balanced_libretro	Super Nintendo Entertainment System	DSP1B co-processor firmware	dsp1b.data.rom	1e3f568634a7d8284020dddc0ae905bc	FALSE	1	DSP1B co-processor firmware	FALSE	All
+bsnes2014_balanced_libretro	Super Nintendo Entertainment System	ST010 co-processor firmware	st010.program.rom	1d70019179a59a566a0bb5d3f2845544	FALSE	5	ST010 co-processor firmware	FALSE	All
+bsnes2014_balanced_libretro	Super Nintendo Entertainment System	DSP1B co-processor firmware	dsp1b.program.rom	d10f446888e097cbf500f3f663cf4f6d	FALSE	1	DSP1B co-processor firmware	FALSE	All
+bsnes2014_balanced_libretro	Super Nintendo Entertainment System	ST011 co-processor firmware	st011.data.rom	10bd3f4aa949737ab9836512c35bcc29	FALSE	6	ST011 co-processor firmware	FALSE	All
+bsnes2014_balanced_libretro	Super Nintendo Entertainment System	DSP2 co-processor firmware	dsp2.data.rom	e9417e29223b139c3c4b635a2a3b8744	FALSE	2	DSP2 co-processor firmware	FALSE	All
+bsnes2014_balanced_libretro	Super Nintendo Entertainment System	DSP2 co-processor firmware	dsp2.program.rom	aa6e5922a3ed5ded54f24247c11143c5	FALSE	2	DSP2 co-processor firmware	FALSE	All
+bsnes2014_balanced_libretro	Super Nintendo Entertainment System	ST011 co-processor firmware	st011.program.rom	95222ebf1c0c2990bcf25db43743f032	FALSE	6	ST011 co-processor firmware	FALSE	All
+bsnes2014_balanced_libretro	Super Nintendo Entertainment System	DSP3 co-processor firmware	dsp3.data.rom	0a81210c0a940b997dd9843281008ee6	FALSE	3	DSP3 co-processor firmware	FALSE	All
+bsnes2014_balanced_libretro	Super Nintendo Entertainment System	DSP3 co-processor firmware	dsp3.program.rom	d99ca4562818d49cee1f242705bba6f8	FALSE	3	DSP3 co-processor firmware	FALSE	All
+bsnes2014_balanced_libretro	Super Nintendo Entertainment System	ST018 co-processor firmware	st018.data.rom	49c898b60d0f15e90d0ba780dd12f366	FALSE	7	ST018 co-processor firmware	FALSE	All
+bsnes2014_balanced_libretro	Super Nintendo Entertainment System	DSP4 co-processor firmware	dsp4.data.rom	ee4990879eb68e3cbca239c5bc20303d	FALSE	4	DSP4 co-processor firmware	FALSE	All
+bsnes2014_balanced_libretro	Super Nintendo Entertainment System	ST018 co-processor firmware	st018.program.rom	dda40ccd57390c96e49d30a041f9a9e7	FALSE	7	ST018 co-processor firmware	FALSE	All
+bsnes2014_balanced_libretro	Super Nintendo Entertainment System	DSP4 co-processor firmware	dsp4.program.rom	a151023b948b90ffc23a5b594bb6fef2	FALSE	4	DSP4 co-processor firmware	FALSE	All
+bsnes2014_performance_libretro	Super Nintendo Entertainment System	DSP1 co-processor firmware	dsp1.data.rom	3d81b45fa0c2aa8b852dfb1ece7c0971	FALSE	0	DSP1 co-processor firmware	FALSE	All
+bsnes2014_performance_libretro	Super Nintendo Entertainment System	ST010 co-processor firmware	st010.data.rom	254d70762b6f59f99c27c395aba7d07d	FALSE	5	ST010 co-processor firmware	FALSE	All
+bsnes2014_performance_libretro	Super Nintendo Entertainment System	DSP1 co-processor firmware	dsp1.program.rom	ae209fbe789fbf11a48aea5ab1197321	FALSE	0	DSP1 co-processor firmware	FALSE	All
+bsnes2014_performance_libretro	Super Nintendo Entertainment System	DSP1B co-processor firmware	dsp1b.data.rom	1e3f568634a7d8284020dddc0ae905bc	FALSE	1	DSP1B co-processor firmware	FALSE	All
+bsnes2014_performance_libretro	Super Nintendo Entertainment System	ST010 co-processor firmware	st010.program.rom	1d70019179a59a566a0bb5d3f2845544	FALSE	5	ST010 co-processor firmware	FALSE	All
+bsnes2014_performance_libretro	Super Nintendo Entertainment System	Super Game Boy BIOS	sgb.boot.rom		FALSE				
+bsnes2014_performance_libretro	Super Nintendo Entertainment System	DSP1B co-processor firmware	dsp1b.program.rom	d10f446888e097cbf500f3f663cf4f6d	FALSE	1	DSP1B co-processor firmware	FALSE	All
+bsnes2014_performance_libretro	Super Nintendo Entertainment System	DSP2 co-processor firmware	dsp2.data.rom	e9417e29223b139c3c4b635a2a3b8744	FALSE	2	DSP2 co-processor firmware	FALSE	All
+bsnes2014_performance_libretro	Super Nintendo Entertainment System	ST011 co-processor firmware	st011.data.rom	10bd3f4aa949737ab9836512c35bcc29	FALSE	6	ST011 co-processor firmware	FALSE	All
+bsnes2014_performance_libretro	Super Nintendo Entertainment System	DSP2 co-processor firmware	dsp2.program.rom	aa6e5922a3ed5ded54f24247c11143c5	FALSE	2	DSP2 co-processor firmware	FALSE	All
+bsnes2014_performance_libretro	Super Nintendo Entertainment System	ST011 co-processor firmware	st011.program.rom	95222ebf1c0c2990bcf25db43743f032	FALSE	6	ST011 co-processor firmware	FALSE	All
+bsnes2014_performance_libretro	Super Nintendo Entertainment System	DSP3 co-processor firmware	dsp3.data.rom	0a81210c0a940b997dd9843281008ee6	FALSE	3	DSP3 co-processor firmware	FALSE	All
+bsnes2014_performance_libretro	Super Nintendo Entertainment System	DSP3 co-processor firmware	dsp3.program.rom	d99ca4562818d49cee1f242705bba6f8	FALSE	3	DSP3 co-processor firmware	FALSE	All
+bsnes2014_performance_libretro	Super Nintendo Entertainment System	ST018 co-processor firmware	st018.data.rom	49c898b60d0f15e90d0ba780dd12f366	FALSE	7	ST018 co-processor firmware	FALSE	All
+bsnes2014_performance_libretro	Super Nintendo Entertainment System	DSP4 co-processor firmware	dsp4.data.rom	ee4990879eb68e3cbca239c5bc20303d	FALSE	4	DSP4 co-processor firmware	FALSE	All
+bsnes2014_performance_libretro	Super Nintendo Entertainment System	ST018 co-processor firmware	st018.program.rom	dda40ccd57390c96e49d30a041f9a9e7	FALSE	7	ST018 co-processor firmware	FALSE	All
+bsnes2014_performance_libretro	Super Nintendo Entertainment System	DSP4 co-processor firmware	dsp4.program.rom	a151023b948b90ffc23a5b594bb6fef2	FALSE	4	DSP4 co-processor firmware	FALSE	All
+cdi2015_libretro	Philips CD-i	cdimono1.zip	cdimono1.zip		TRUE				
+desmume_libretro	Nintendo DS	NDS Firmware	firmware.bin		FALSE				
+desmume_libretro	Nintendo DS	ARM7 BIOS	bios7.bin	df692a80a5b1bc90728bc3dfc76cd948	FALSE				
+desmume_libretro	Nintendo DS	ARM9 BIOS	bios9.bin	a392174eb3e572fed6447e956bde4b25	FALSE				
+desmume2015_libretro	Nintendo DS	NDS Firmware	firmware.bin		FALSE				
+desmume2015_libretro	Nintendo DS	ARM7 BIOS	bios7.bin	df692a80a5b1bc90728bc3dfc76cd948	FALSE				
+desmume2015_libretro	Nintendo DS	ARM9 BIOS	bios9.bin	a392174eb3e572fed6447e956bde4b25	FALSE				
+dosbox_core_libretro	MS-DOS	MT-32 Control ROM v1.07	MT32_CONTROL.ROM	5626206284b22c2734f3e9efefcd2675	FALSE				
+dosbox_core_libretro	MS-DOS	MT-32 PCM ROM	MT32_PCM.ROM	89e42e386e82e0cacb4a2704a03706ca	FALSE				
+dosbox_core_libretro	MS-DOS	CM-32L/LAPC-I Control ROM v1.02	CM32L_CONTROL.ROM	bfff32b6144c1d706109accb6e6b1113	FALSE				
+dosbox_core_libretro	MS-DOS	CM-32L/CM-64/LAPC-I PCM ROM	CM32L_PCM.ROM	08cdcfa0ed93e9cb16afa76e6ac5f0a4	FALSE				
+dosbox_core_libretro	MS-DOS	BASS Linux library	libbass.so		FALSE				
+dosbox_core_libretro	MS-DOS	BASSMIDI Linux library	libbassmidi.so		FALSE				
+dosbox_core_libretro	MS-DOS	BASS Windows library	bass.dll		FALSE				
+dosbox_core_libretro	MS-DOS	BASSMIDI Windows library	bassmidi.dll		FALSE				
+dosbox_core_libretro	MS-DOS	BASS macOS library	libbass.dylib		FALSE				
+dosbox_core_libretro	MS-DOS	BASSMIDI macOS library	libbassmidi.dylib		FALSE				
+duckstation_libretro	Sony Playstation	PS1 JP BIOS	scph5500.bin	8dd7d5296a650fac7319bce665a6a53c	TRUE	0	Regional BIOS Images	TRUE	Any
+duckstation_libretro	Sony Playstation	PS1 US BIOS	scph5501.bin	490f666e1afb15b7362b406ed1cea246	TRUE	0	Regional BIOS Images	TRUE	Any
+duckstation_libretro	Sony Playstation	PS1 EU BIOS	scph5502.bin	32736f17079d0b2b7024407c39bd3050	TRUE	0	Regional BIOS Images	TRUE	Any
+ecwolf_libretro		ECWolf System File	ecwolf.pk3	d68107770b3ba230d10aa27472a7617b	TRUE				
+emuscv_libretro	Epoch Super Cassette Vision	Super Cassette Vision BIOS	upd7801g.s01	635a978fd40db9a18ee44eff449fc126	TRUE				
+emux_gb_libretro		Game Boy Boot ROM	dmg_boot.bin	32fbbd84168d3482956eb3c5051637f5	TRUE				
+emux_sms_libretro		Master System BIOS	bios.sms		TRUE				
+ep128emu_core_libretro		Enterprise 128 Expandible OS 2.1	ep128emu/roms/exos21.rom	f36f24cbb87745fbd2714e4df881db09	FALSE	2	Enterprise 128 Expandible OS	TRUE	Any
+ep128emu_core_libretro		Enterprise 128 BASIC Interpreter v2.1	ep128emu/roms/basic21.rom	e972fe42b398c9ff1d93ff014786aec6	FALSE	0	Enterprise 128 BASIC Interpreter	TRUE	Any
+ep128emu_core_libretro		Enterprise 128 Disk Controller v1.3	ep128emu/roms/exdos13.rom	ddff70c014d1958dc75378b6c9aab6f8	FALSE				
+ep128emu_core_libretro		Enterprise 64 Expandible OS 2.0	ep128emu/roms/exos20.rom	5ad3baaad3b5156d6b60b34229a676fb	FALSE	2	Enterprise 64 Expandible OS	TRUE	Any
+ep128emu_core_libretro		Enterprise 64 BASIC Interpreter v2.0	ep128emu/roms/basic20.rom	8e18edce4a7acb2c33cc0ab18f988482	FALSE	0	Enterprise 64 BASIC Interpreter	TRUE	Any
+ep128emu_core_libretro		Enterprise 128 Direct File I/O	ep128emu/roms/epfileio.rom	a68ebcbc73a4d2178d755b7755bf18fe	FALSE				
+ep128emu_core_libretro		Enterprise 128 Expandible OS 2.4	ep128emu/roms/exos24uk.rom	55af78f877a21ca45eb2df68a74fcc60	FALSE	2	Enterprise 128 Expandible OS	TRUE	Any
+ep128emu_core_libretro		Enterprise 128 Hungarian language extension	ep128emu/roms/hun.rom	22167938f142c222f40992839aa21a06	FALSE				
+ep128emu_core_libretro		Enterprise 128 EP-DOS with Hungarian language extension	ep128emu/roms/epd19hft.rom	12cfc9c7e48c8a16c2e09edbd926d467	FALSE				
+ep128emu_core_libretro		Enterprise 128 ZozoTools with Hungarian language extension 1.9	ep128emu/roms/zt19hfnt.rom	653daaf7b9b29c2c4e577f489580f247	FALSE				
+ep128emu_core_libretro		Enterprise 128 German language extension	ep128emu/roms/brd.rom	6af0402906944fd134004b85097c8524	FALSE				
+ep128emu_core_libretro		Enterprise 128 ZozoTools extension	ep128emu/roms/zt19uk.rom	228540b6be83ae2acd7569c8ff0f91d0	FALSE				
+ep128emu_core_libretro		Videoton TVC system BIOS	ep128emu/roms/tvc22_sys.rom	8c54285f541930cde766069942bad0f2	FALSE				
+ep128emu_core_libretro		Videoton TVC extension BIOS	ep128emu/roms/tvc22_ext.rom	5ce95a26ceed5bec73995d83568da9cf	FALSE				
+ep128emu_core_libretro		Videoton TVC Direct File I/O	ep128emu/roms/tvcfileio.rom	a2cf86ba8e7fc58b242137fe59036832	FALSE				
+ep128emu_core_libretro		Videoton TVC disk BIOS	ep128emu/roms/tvc_dos12d.rom	88dc7876d584f90e4106f91444ab23b7	FALSE				
+ep128emu_core_libretro		Amstrad CPC 464 BIOS	ep128emu/roms/cpc464.rom	a993f85b88ac4350cf4d41554e87fe4f	FALSE	3	Amstrad CPC BIOS	TRUE	Any
+ep128emu_core_libretro		Amstrad CPC 664 BIOS	ep128emu/roms/cpc664.rom	5a384a2310f472c7857888371c00ed66	FALSE	3	Amstrad CPC BIOS	TRUE	Any
+ep128emu_core_libretro		Amstrad CPC 6128 BIOS	ep128emu/roms/cpc6128.rom	b96280dc6c95a48857b4b8eb931533ae	FALSE	3	Amstrad CPC BIOS	TRUE	Any
+ep128emu_core_libretro		Amstrad CPC AMSDOS BIOS	ep128emu/roms/cpc_amsdos.rom	25629dfe870d097469c217b95fdc1c95	FALSE	3	Amstrad CPC BIOS	TRUE	Any
+ep128emu_core_libretro		ZX Spectrum 128 BIOS	ep128emu/roms/zx128.rom	85fede415f4294cc777517d7eada482e	FALSE	4	ZX Spectrum BIOS	TRUE	Any
+ep128emu_core_libretro		ZX Spectrum 48 BIOS	ep128emu/roms/zx48.rom	4c42a2f075212361c3117015b107ff68	FALSE	4	ZX Spectrum BIOS	TRUE	Any
+fbneo_libretro		Neo Geo BIOS	fbneo/neogeo.zip		FALSE				
+fbneo_libretro		Neo Geo CDZ System BIOS	fbneo/neocdz.zip		FALSE				
+fbneo_libretro		DECO Cassette System BIOS	fbneo/decocass.zip		FALSE				
+fbneo_libretro		ISG Selection Master Type 2006 System BIOS	fbneo/isgsm.zip		FALSE				
+fbneo_libretro		Midway SSIO Sound Board Internal ROM	fbneo/midssio.zip		FALSE				
+fbneo_libretro		NMK004 Internal ROM	fbneo/nmk004.zip		FALSE				
+fbneo_libretro		PGM System BIOS	fbneo/pgm.zip		FALSE				
+fbneo_libretro		Super Kaneko Nova System BIOS	fbneo/skns.zip		FALSE				
+fbneo_libretro		YM2608 Internal ROM	fbneo/ym2608.zip		FALSE				
+fbneo_libretro		C-Chip Internal ROM	fbneo/cchip.zip		FALSE				
+fbneo_libretro		Bubble System BIOS	fbneo/bubsys.zip		FALSE				
+fbneo_libretro		Namco C69 BIOS	fbneo/namcoc69.zip		FALSE				
+fbneo_libretro		Namco C70 BIOS	fbneo/namcoc70.zip		FALSE				
+fbneo_libretro		Namco C75 BIOS	fbneo/namcoc75.zip		FALSE				
+fbneo_libretro		ColecoVision System BIOS	fbneo/coleco.zip		FALSE				
+fbneo_libretro		FDS System BIOS	fbneo/fdsbios.zip		FALSE				
+fbneo_libretro		MSX1 System BIOS	fbneo/msx.zip		FALSE				
+fbneo_libretro		NeoGeo Pocket BIOS	fbneo/ngp.zip		FALSE				
+fbneo_libretro		ZX Spectrum BIOS	fbneo/spectrum.zip		FALSE				
+fbneo_libretro		ZX Spectrum 128 BIOS	fbneo/spec128.zip		FALSE				
+fbneo_libretro		1898x1861 (2 MB)	fbneo/spec1282a.zip		FALSE				
+fbneo_libretro		Fairchild Channel F BIOS	fbneo/channelf.zip		FALSE				
+fbneo_libretro		High Score support database	fbneo/hiscore.dat		FALSE				
+fceumm_libretro	Nintendo Famicom Disk System	Family Computer Disk System BIOS	disksys.rom	ca30b50f880eb660a320674ed365ef7a	TRUE				
+fceumm_libretro		Custom NES Palette	nes.pal		FALSE				
+fceumm_libretro		Game Genie add-on cartridge	gamegenie.nes	7f98d77d7a094ad7d069b74bd553ec98	FALSE				
+fixgb_libretro		Game Boy Color BIOS	gbc_bios.bin	dbfce9db9deaa2567f6a84fde55f9680	FALSE				
+fixnes_libretro	Nintendo Famicom Disk System	Family Computer Disk System BIOS	disksys.rom	ca30b50f880eb660a320674ed365ef7a	TRUE				
+flycast_gles2_libretro	Sega Naomi	Naomi Airline Pilots deluxe Bios from MAME	dc/airlbios.zip		FALSE				
+flycast_gles2_libretro	Sammy Atomiswave	Atomiswave BIOS from MAME	dc/awbios.zip		TRUE				
+flycast_gles2_libretro	Sega Dreamcast	Dreamcast BIOS	dc/dc_boot.bin	e10c53c2f8b90bab96ead2d368858623	FALSE				
+flycast_gles2_libretro	Sega Naomi	Naomi Ferrari F355 Challenge twin/deluxe Bios from MAME	dc/f355bios.zip		FALSE				
+flycast_gles2_libretro	Sega Naomi	Naomi Ferrari F355 Challenge deluxe Bios from MAME	dc/f355dlx.zip		FALSE				
+flycast_gles2_libretro	Sega Naomi	Naomi The House of the Dead 2 Bios from MAME	dc/hod2bios.zip		FALSE				
+flycast_gles2_libretro	Sega Naomi	Naomi Bios from MAME	dc/naomi.zip		TRUE				
+flycast_gles2_libretro	Sega Naomi 2	Naomi2 Bios from MAME	dc/naomi2.zip		TRUE				
+flycast_libretro	Sega Naomi	Naomi Airline Pilots deluxe Bios from MAME	dc/airlbios.zip		FALSE				
+flycast_libretro	Sammy Atomiswave	Atomiswave BIOS from MAME	dc/awbios.zip		TRUE				
+flycast_libretro	Sega Dreamcast	Dreamcast BIOS	dc/dc_boot.bin	e10c53c2f8b90bab96ead2d368858623	FALSE				
+flycast_libretro	Sega Naomi	Naomi Ferrari F355 Challenge twin/deluxe Bios from MAME	dc/f355bios.zip		FALSE				
+flycast_libretro	Sega Naomi	Naomi Ferrari F355 Challenge deluxe Bios from MAME	dc/f355dlx.zip		FALSE				
+flycast_libretro	Sega Naomi	Naomi The House of the Dead 2 Bios from MAME	dc/hod2bios.zip		FALSE				
+flycast_libretro	Sega Naomi	Naomi Bios from MAME	dc/naomi.zip		TRUE				
+flycast_libretro	Sega Naomi 2	Naomi2 Bios from MAME	dc/naomi2.zip		TRUE				
+fmsx_libretro	Microsoft MSX	MSX BIOS	MSX.ROM	364a1a579fe5cb8dba54519bcfcdac0d	TRUE				
+fmsx_libretro	Microsoft MSX2	MSX2 BIOS	MSX2.ROM	ec3a01c91f24fbddcbcab0ad301bc9ef	TRUE				
+fmsx_libretro	Microsoft MSX2	MSX2 ExtROM	MSX2EXT.ROM	2183c2aff17cf4297bdb496de78c2e8a	TRUE				
+fmsx_libretro	Microsoft MSX2+	MSX2+ BIOS	MSX2P.ROM	847cc025ffae665487940ff2639540e5	TRUE				
+fmsx_libretro	Microsoft MSX2+	MSX2+ ExtROM	MSX2PEXT.ROM	7c8243c71d8f143b2531f01afa6a05dc	TRUE				
+fmsx_libretro		DiskROM/BDOS	DISK.ROM	80dcd1ad1a4cf65d64b7ba10504e8190	FALSE				
+fmsx_libretro		FMPAC BIOS	FMPAC.ROM	6f69cc8b5ed761b03afd78000dfb0e19	FALSE				
+fmsx_libretro		MSX-DOS 2	MSXDOS2.ROM	6418d091cd6907bbcf940324339e43bb	FALSE				
+fmsx_libretro		Yamaha Painter	PAINTER.ROM	403cdea1cbd2bb24fae506941f8f655e	FALSE				
+fmsx_libretro		Kanji Font	KANJI.ROM	febe8782b466d7c3b16de6d104826b34	FALSE				
+freechaf_libretro		sl31253.bin	sl31253.bin		TRUE				
+freechaf_libretro		sl31254.bin	sl31254.bin		TRUE				
+freechaf_libretro		sl90025.bin	sl90025.bin		TRUE				
+freeintv_libretro		exec.bin	exec.bin	62e761035cb657903761800f4437b8af	TRUE				
+freeintv_libretro		grom.bin	grom.bin	0cd5946c6473e42e8e4c2137785e427f	TRUE				
+freej2me_libretro		freej2me-lr.jar	freej2me-lr.jar		TRUE				
+fuse_libretro		Pentagon machines	fuse/128p-0.rom		FALSE	0	Pentagon Machines	TRUE	All
+fuse_libretro		Pentagon machines	fuse/128p-1.rom		FALSE	0	Pentagon Machines	TRUE	All
+fuse_libretro		Pentagon machines	fuse/trdos.rom		FALSE	0	Pentagon Machines	TRUE	All
+fuse_libretro		Pentagon 512K / 1024	fuse/gluck.rom		FALSE	0	Pentagon Machines	TRUE	All
+fuse_libretro		Scorpion 256K	fuse/256s-0.rom		FALSE	1	Scorpion Machines	TRUE	All
+fuse_libretro		Scorpion 256K	fuse/256s-1.rom		FALSE	1	Scorpion Machines	TRUE	All
+fuse_libretro		Scorpion 256K	fuse/256s-2.rom		FALSE	1	Scorpion Machines	TRUE	All
+fuse_libretro		Scorpion 256K	fuse/256s-3.rom		FALSE	1	Scorpion Machines	TRUE	All
+galaksija_libretro		Character ROM	galaksija/CHRGEN.BIN		FALSE				
+galaksija_libretro		Base ROM	galaksija/ROM1.BIN		FALSE				
+galaksija_libretro		Extensions	galaksija/ROM2.BIN		FALSE				
+gambatte_libretro		Game Boy BIOS	gb_bios.bin	32fbbd84168d3482956eb3c5051637f5	FALSE				
+gambatte_libretro		Game Boy Color BIOS	gbc_bios.bin	dbfce9db9deaa2567f6a84fde55f9680	FALSE				
+gearcoleco_libretro		ColecoVision BIOS	colecovision.rom	2c66f5911e5b42b8ebe113403548eee7	TRUE				
+genesis_plus_gx_libretro	Sega Genesis	Mega Drive startup ROM	bios_MD.bin		FALSE				
+genesis_plus_gx_libretro	Sega CD	MegaCD EU BIOS	bios_CD_E.bin	e66fa1dc5820d254611fdcdba0662372	FALSE	0	Sega CD BIOS	TRUE	Any
+genesis_plus_gx_libretro	Sega CD	SegaCD US BIOS	bios_CD_U.bin	2efd74e3232ff260e371b99f84024f7f	FALSE	0	Sega CD BIOS	TRUE	Any
+genesis_plus_gx_libretro	Sega CD	MegaCD JP BIOS	bios_CD_J.bin	278a9397d192149e84e820ac621a8edd	FALSE	0	Sega CD BIOS	TRUE	Any
+genesis_plus_gx_libretro	Sega Master System	MasterSystem EU BIOS	bios_E.sms		FALSE				
+genesis_plus_gx_libretro	Sega Master System	MasterSystem US BIOS	bios_U.sms		FALSE				
+genesis_plus_gx_libretro	Sega Master System	MasterSystem JP BIOS	bios_J.sms		FALSE				
+genesis_plus_gx_libretro	Sega Game Gear	GameGear BIOS	bios.gg		FALSE				
+genesis_plus_gx_libretro		Sonic & Knuckles ROM	sk.bin	4ea493ea4e9f6c9ebfccbdb15110367e	FALSE				
+genesis_plus_gx_libretro		Sonic & Knuckles UPMEM ROM	sk2chip.bin	b4e76e416b887f4e7413ba76fa735f16	FALSE				
+genesis_plus_gx_libretro		Action Replay ROM	areplay.bin		FALSE				
+genesis_plus_gx_libretro		Game Genie ROM	ggenie.bin		FALSE				
+genesis_plus_gx_wide_libretro	Sega Genesis	Mega Drive startup ROM	bios_MD.bin		FALSE				
+genesis_plus_gx_wide_libretro	Sega CD	MegaCD EU BIOS	bios_CD_E.bin	e66fa1dc5820d254611fdcdba0662372	FALSE	0	Sega CD BIOS	TRUE	Any
+genesis_plus_gx_wide_libretro	Sega CD	SegaCD US BIOS	bios_CD_U.bin	2efd74e3232ff260e371b99f84024f7f	FALSE	0	Sega CD BIOS	TRUE	Any
+genesis_plus_gx_wide_libretro	Sega CD	MegaCD JP BIOS	bios_CD_J.bin	278a9397d192149e84e820ac621a8edd	FALSE	0	Sega CD BIOS	TRUE	Any
+genesis_plus_gx_wide_libretro	Sega Master System	MasterSystem EU BIOS	bios_E.sms		FALSE				
+genesis_plus_gx_wide_libretro	Sega Game Gear	MasterSystem US BIOS	bios_U.sms		FALSE				
+genesis_plus_gx_wide_libretro		MasterSystem JP BIOS	bios_J.sms		FALSE				
+genesis_plus_gx_wide_libretro		GameGear BIOS	bios.gg		FALSE				
+genesis_plus_gx_wide_libretro		Sonic & Knuckles ROM	sk.bin	4ea493ea4e9f6c9ebfccbdb15110367e	FALSE				
+genesis_plus_gx_wide_libretro		Sonic & Knuckles UPMEM ROM	sk2chip.bin	b4e76e416b887f4e7413ba76fa735f16	FALSE				
+genesis_plus_gx_wide_libretro		Action Replay ROM	areplay.bin		FALSE				
+genesis_plus_gx_wide_libretro		Game Genie ROM	ggenie.bin		FALSE				
+gpsp_libretro		Game Boy Advance BIOS	gba_bios.bin	a860e8c0b6d573d191e4ec7db1b1e4f6	TRUE				
+handy_libretro		Lynx Boot Image	lynxboot.img	fcd403db69f54290b51035d82f835e7b	FALSE				
+hatari_libretro		TOS 1.02 US aka Mega TOS	tos.img	c1c57ce48e8ee4135885cee9e63a68a2	TRUE				
+higan_sfc_balanced_libretro	Super Nintendo Entertainment System	DSP1 co-processor firmware	dsp1.data.rom	3d81b45fa0c2aa8b852dfb1ece7c0971	FALSE	0	DSP1 co-processor firmware	FALSE	All
+higan_sfc_balanced_libretro	Super Nintendo Entertainment System	DSP1 co-processor firmware	dsp1.program.rom	ae209fbe789fbf11a48aea5ab1197321	FALSE	0	DSP1 co-processor firmware	FALSE	All
+higan_sfc_balanced_libretro	Super Nintendo Entertainment System	ST010 co-processor firmware	st010.data.rom	254d70762b6f59f99c27c395aba7d07d	FALSE	5	ST010 co-processor firmware	FALSE	All
+higan_sfc_balanced_libretro	Super Nintendo Entertainment System	DSP1B co-processor firmware	dsp1b.data.rom	1e3f568634a7d8284020dddc0ae905bc	FALSE	1	DSP1B co-processor firmware	FALSE	All
+higan_sfc_balanced_libretro	Super Nintendo Entertainment System	ST010 co-processor firmware	st010.program.rom	1d70019179a59a566a0bb5d3f2845544	FALSE	5	ST010 co-processor firmware	FALSE	All
+higan_sfc_balanced_libretro	Super Nintendo Entertainment System	DSP1B co-processor firmware	dsp1b.program.rom	d10f446888e097cbf500f3f663cf4f6d	FALSE	1	DSP1B co-processor firmware	FALSE	All
+higan_sfc_balanced_libretro	Super Nintendo Entertainment System	DSP2 co-processor firmware	dsp2.data.rom	e9417e29223b139c3c4b635a2a3b8744	FALSE	2	DSP2 co-processor firmware	FALSE	All
+higan_sfc_balanced_libretro	Super Nintendo Entertainment System	ST011 co-processor firmware	st011.data.rom	10bd3f4aa949737ab9836512c35bcc29	FALSE	6	ST011 co-processor firmware	FALSE	All
+higan_sfc_balanced_libretro	Super Nintendo Entertainment System	DSP2 co-processor firmware	dsp2.program.rom	aa6e5922a3ed5ded54f24247c11143c5	FALSE	2	DSP2 co-processor firmware	FALSE	All
+higan_sfc_balanced_libretro	Super Nintendo Entertainment System	ST011 co-processor firmware	st011.program.rom	95222ebf1c0c2990bcf25db43743f032	FALSE	6	ST011 co-processor firmware	FALSE	All
+higan_sfc_balanced_libretro	Super Nintendo Entertainment System	DSP3 co-processor firmware	dsp3.data.rom	0a81210c0a940b997dd9843281008ee6	FALSE	3	DSP3 co-processor firmware	FALSE	All
+higan_sfc_balanced_libretro	Super Nintendo Entertainment System	DSP3 co-processor firmware	dsp3.program.rom	d99ca4562818d49cee1f242705bba6f8	FALSE	3	DSP3 co-processor firmware	FALSE	All
+higan_sfc_balanced_libretro	Super Nintendo Entertainment System	CX4 co-processor firmware	cx4.data.rom	037ac4296b6b6a5c47c440188d3c72e3	FALSE				
+higan_sfc_balanced_libretro	Super Nintendo Entertainment System	ST018 co-processor firmware	st018.data.rom	49c898b60d0f15e90d0ba780dd12f366	FALSE	7	ST018 co-processor firmware	FALSE	All
+higan_sfc_balanced_libretro		SGB Boot BIOS	SGB1.sfc/sgb1.boot.rom		FALSE				
+higan_sfc_balanced_libretro		SGB Boot Image	SGB1.sfc/program.rom		FALSE				
+higan_sfc_balanced_libretro		SGB Boot BIOS	SGB2.sfc/sgb2.boot.rom		FALSE				
+higan_sfc_balanced_libretro		SGB Boot Image	SGB2.sfc/program.rom		FALSE				
+higan_sfc_balanced_libretro	Super Nintendo Entertainment System	DSP4 co-processor firmware	dsp4.data.rom	ee4990879eb68e3cbca239c5bc20303d	FALSE	4	DSP4 co-processor firmware	FALSE	All
+higan_sfc_balanced_libretro	Super Nintendo Entertainment System	DSP4 co-processor firmware	dsp4.program.rom	a151023b948b90ffc23a5b594bb6fef2	FALSE	4	DSP4 co-processor firmware	FALSE	All
+higan_sfc_balanced_libretro	Super Nintendo Entertainment System	ST018 co-processor firmware	st018.program.rom	dda40ccd57390c96e49d30a041f9a9e7	FALSE	7	ST018 co-processor firmware	FALSE	All
+higan_sfc_libretro	Super Nintendo Entertainment System	DSP1 co-processor firmware	dsp1.data.rom	3d81b45fa0c2aa8b852dfb1ece7c0971	FALSE	0	DSP1 co-processor firmware	FALSE	All
+higan_sfc_libretro	Super Nintendo Entertainment System	ST010 co-processor firmware	st010.data.rom	254d70762b6f59f99c27c395aba7d07d	FALSE	5	ST010 co-processor firmware	FALSE	All
+higan_sfc_libretro	Super Nintendo Entertainment System	DSP1 co-processor firmware	dsp1.program.rom	ae209fbe789fbf11a48aea5ab1197321	FALSE	0	DSP1 co-processor firmware	FALSE	All
+higan_sfc_libretro	Super Nintendo Entertainment System	DSP1B co-processor firmware	dsp1b.data.rom	1e3f568634a7d8284020dddc0ae905bc	FALSE	1	DSP1B co-processor firmware	FALSE	All
+higan_sfc_libretro	Super Nintendo Entertainment System	ST010 co-processor firmware	st010.program.rom	1d70019179a59a566a0bb5d3f2845544	FALSE	5	ST010 co-processor firmware	FALSE	All
+higan_sfc_libretro	Super Nintendo Entertainment System	DSP1B co-processor firmware	dsp1b.program.rom	d10f446888e097cbf500f3f663cf4f6d	FALSE	1	DSP1B co-processor firmware	FALSE	All
+higan_sfc_libretro	Super Nintendo Entertainment System	DSP2 co-processor firmware	dsp2.data.rom	e9417e29223b139c3c4b635a2a3b8744	FALSE	2	DSP2 co-processor firmware	FALSE	All
+higan_sfc_libretro	Super Nintendo Entertainment System	ST011 co-processor firmware	st011.data.rom	10bd3f4aa949737ab9836512c35bcc29	FALSE	6	ST011 co-processor firmware	FALSE	All
+higan_sfc_libretro	Super Nintendo Entertainment System	DSP2 co-processor firmware	dsp2.program.rom	aa6e5922a3ed5ded54f24247c11143c5	FALSE	2	DSP2 co-processor firmware	FALSE	All
+higan_sfc_libretro	Super Nintendo Entertainment System	DSP3 co-processor firmware	dsp3.data.rom	0a81210c0a940b997dd9843281008ee6	FALSE	3	DSP3 co-processor firmware	FALSE	All
+higan_sfc_libretro	Super Nintendo Entertainment System	ST011 co-processor firmware	st011.program.rom	95222ebf1c0c2990bcf25db43743f032	FALSE	6	ST011 co-processor firmware	FALSE	All
+higan_sfc_libretro	Super Nintendo Entertainment System	DSP3 co-processor firmware	dsp3.program.rom	d99ca4562818d49cee1f242705bba6f8	FALSE	3	DSP3 co-processor firmware	FALSE	All
+higan_sfc_libretro	Super Nintendo Entertainment System	ST018 co-processor firmware	st018.data.rom	49c898b60d0f15e90d0ba780dd12f366	FALSE	7	ST018 co-processor firmware	FALSE	All
+higan_sfc_libretro	Super Nintendo Entertainment System	DSP4 co-processor firmware	dsp4.data.rom	ee4990879eb68e3cbca239c5bc20303d	FALSE	4	DSP4 co-processor firmware	FALSE	All
+higan_sfc_libretro	Super Nintendo Entertainment System	CX4 co-processor firmware	cx4.data.rom	037ac4296b6b6a5c47c440188d3c72e3	FALSE				
+higan_sfc_libretro		SGB Boot BIOS	SGB1.sfc/sgb1.boot.rom		FALSE				
+higan_sfc_libretro		SGB Boot Image	SGB1.sfc/program.rom		FALSE				
+higan_sfc_libretro		SGB Boot BIOS	SGB2.sfc/sgb2.boot.rom		FALSE				
+higan_sfc_libretro		SGB Boot Image	SGB2.sfc/program.rom		FALSE				
+higan_sfc_libretro	Super Nintendo Entertainment System	DSP4 co-processor firmware	dsp4.program.rom	a151023b948b90ffc23a5b594bb6fef2	FALSE	4	DSP4 co-processor firmware	FALSE	All
+higan_sfc_libretro	Super Nintendo Entertainment System	ST018 co-processor firmware	st018.program.rom	dda40ccd57390c96e49d30a041f9a9e7	FALSE	7	ST018 co-processor firmware	FALSE	All
+kronos_libretro	Sega Saturn	Saturn BIOS	kronos/saturn_bios.bin	af5828fdff51384f99b3c4926be27762	TRUE				
+kronos_libretro	Sega ST-V	ST-V BIOS from MAME	kronos/stvbios.zip	255113ba943c92a54facd25a10fd780c	TRUE				
+kronos_libretro		The King of Fighters '95 ROM Cartridge	mpr-18811-mx.ic1		FALSE				
+kronos_libretro		Ultraman: Hikari no Kyojin Densetsu ROM Cartridge	mpr-19367-mx.ic1	1cd19988d1d72a3e7caa0b73234c96b4	FALSE				
+mednafen_gba_libretro		Game Boy Advance BIOS	gba_bios.bin	a860e8c0b6d573d191e4ec7db1b1e4f6	FALSE				
+mednafen_lynx_libretro		Lynx Boot Image	lynxboot.img	fcd403db69f54290b51035d82f835e7b	TRUE				
+mednafen_pce_fast_libretro	NEC TurboGrafx-CD	Super CD-ROM2 System V3.xx	syscard3.pce	38179df8f4ac870017db21ebcbf53114	TRUE				
+mednafen_pce_fast_libretro	NEC TurboGrafx-CD	CD-ROM System V2.xx	syscard2.pce		FALSE	0	Optional BIOS	FALSE	Any
+mednafen_pce_fast_libretro	NEC TurboGrafx-CD	CD-ROM System V1.xx	syscard1.pce		FALSE	0	Optional BIOS	FALSE	Any
+mednafen_pce_fast_libretro	NEC TurboGrafx-CD	Game Express CD Card	gexpress.pce		FALSE	0	Optional BIOS	FALSE	Any
+mednafen_pce_libretro	NEC TurboGrafx-CD	Super CD-ROM2 System V3.xx	syscard3.pce	38179df8f4ac870017db21ebcbf53114	TRUE				
+mednafen_pce_libretro	NEC TurboGrafx-CD	CD-ROM System V2.xx	syscard2.pce		FALSE	0	Optional BIOS	FALSE	Any
+mednafen_pce_libretro	NEC TurboGrafx-CD	CD-ROM System V1.xx	syscard1.pce		FALSE	0	Optional BIOS	FALSE	Any
+mednafen_pce_libretro	NEC TurboGrafx-CD	Game Express CD Card	gexpress.pce		FALSE	0	Optional BIOS	FALSE	Any
+mednafen_pcfx_libretro		PC-FX BIOS v1.00 - 2 Sep 1994	pcfx.rom	08e36edbea28a017f79f8d4f7ff9b6d7	TRUE				
+mednafen_psx_hw_libretro		PS1 JP BIOS	scph5500.bin	8dd7d5296a650fac7319bce665a6a53c	TRUE	0	Regional BIOS	TRUE	Any
+mednafen_psx_hw_libretro		PS1 US BIOS	scph5501.bin	490f666e1afb15b7362b406ed1cea246	TRUE	0	Regional BIOS	TRUE	Any
+mednafen_psx_hw_libretro		PS1 EU BIOS	scph5502.bin	32736f17079d0b2b7024407c39bd3050	TRUE	0	Regional BIOS	TRUE	Any
+mednafen_psx_hw_libretro		PSP PS1 BIOS	psxonpsp660.bin	c53ca5908936d412331790f4426c6c33	FALSE				
+mednafen_psx_hw_libretro		PS3 PS1 BIOS	ps1_rom.bin	81bbe60ba7a3d1cea1d48c14cbcc647b	FALSE				
+mednafen_psx_libretro		PS1 JP BIOS	scph5500.bin	8dd7d5296a650fac7319bce665a6a53c	TRUE	0	Regional BIOS	TRUE	Any
+mednafen_psx_libretro		PS1 US BIOS	scph5501.bin	490f666e1afb15b7362b406ed1cea246	TRUE	0	Regional BIOS	TRUE	Any
+mednafen_psx_libretro		PS1 EU BIOS	scph5502.bin	32736f17079d0b2b7024407c39bd3050	TRUE	0	Regional BIOS	TRUE	Any
+mednafen_psx_libretro		PSP PS1 BIOS	psxonpsp660.bin	c53ca5908936d412331790f4426c6c33	FALSE				
+mednafen_psx_libretro		PS3 PS1 BIOS	ps1_rom.bin	81bbe60ba7a3d1cea1d48c14cbcc647b	FALSE				
+mednafen_saturn_libretro		Saturn JP BIOS	sega_101.bin	85ec9ca47d8f6807718151cbcca8b964	TRUE	0	Regional BIOS	TRUE	Any
+mednafen_saturn_libretro		Saturn US/EU BIOS	mpr-17933.bin	3240872c70984b6cbfda1586cab68dbe	TRUE	0	Regional BIOS	TRUE	Any
+mednafen_saturn_libretro		The King of Fighters '95 ROM Cartridge	mpr-18811-mx.ic1	255113ba943c92a54facd25a10fd780c	FALSE				
+mednafen_saturn_libretro		Ultraman: Hikari no Kyojin Densetsu ROM Cartridge	mpr-19367-mx.ic1	1cd19988d1d72a3e7caa0b73234c96b4	FALSE				
+mednafen_supergrafx_libretro	NEC TurboGrafx-CD	Super CD-ROM2 System V3.xx	syscard3.pce	38179df8f4ac870017db21ebcbf53114	TRUE				
+mednafen_supergrafx_libretro	NEC TurboGrafx-CD	CD-ROM System V2.xx	syscard2.pce		FALSE				
+mednafen_supergrafx_libretro	NEC TurboGrafx-CD	CD-ROM System V1.xx	syscard1.pce		FALSE				
+mednafen_supergrafx_libretro	NEC TurboGrafx-CD	Game Express CD Card	gexpress.pce		FALSE				
+melonds_libretro		NDS Firmware	firmware.bin		FALSE				
+melonds_libretro		ARM7 BIOS	bios7.bin		FALSE				
+melonds_libretro		ARM9 BIOS	bios9.bin		FALSE				
+melonds_libretro		DSi Firmware	dsi_firmware.bin		FALSE				
+melonds_libretro		DSi ARM7 BIOS	dsi_bios7.bin	df692a80a5b1bc90728bc3dfc76cd948	FALSE				
+melonds_libretro		DSi ARM9 BIOS	dsi_bios9.bin	a392174eb3e572fed6447e956bde4b25	FALSE				
+melonds_libretro		DSi NAND	dsi_nand.bin		FALSE				
+melonds_libretro		DSi SD card	dsi_sd_card.bin		FALSE				
+melondsds_libretro		NDS Firmware	firmware.bin		FALSE				
+melondsds_libretro		ARM7 BIOS	bios7.bin	df692a80a5b1bc90728bc3dfc76cd948	FALSE				
+melondsds_libretro		ARM9 BIOS	bios9.bin	a392174eb3e572fed6447e956bde4b25	FALSE				
+melondsds_libretro		DSi Firmware	dsi_firmware.bin		FALSE				
+melondsds_libretro		DSi ARM7 BIOS	dsi_bios7.bin		FALSE				
+melondsds_libretro		DSi ARM9 BIOS	dsi_bios9.bin		FALSE				
+melondsds_libretro		DSi NAND	dsi_nand.bin		FALSE				
+mesen_libretro	Nintendo Famicom Disk System	Family Computer Disk System BIOS	disksys.rom		TRUE				
+mesen-s_libretro	Super Nintendo Entertainment System	SGB ROM	SGB1.sfc	b15ddb15721c657d82c5bab6db982ee9	FALSE				
+mesen-s_libretro	Super Nintendo Entertainment System	DSP1 co-processor firmware	dsp1.data.rom	3d81b45fa0c2aa8b852dfb1ece7c0971	FALSE	0	DSP1 co-processor firmware	FALSE	All
+mesen-s_libretro	Super Nintendo Entertainment System	ST010 co-processor firmware	st010.data.rom	254d70762b6f59f99c27c395aba7d07d	FALSE	5	ST010 co-processor firmware	FALSE	All
+mesen-s_libretro	Super Nintendo Entertainment System	DSP1 co-processor firmware	dsp1.program.rom	ae209fbe789fbf11a48aea5ab1197321	FALSE	0	DSP1 co-processor firmware	FALSE	All
+mesen-s_libretro	Super Nintendo Entertainment System	DSP1B co-processor firmware	dsp1b.data.rom	1e3f568634a7d8284020dddc0ae905bc	FALSE	1	DSP1B co-processor firmware	FALSE	All
+mesen-s_libretro	Super Nintendo Entertainment System	ST010 co-processor firmware	st010.program.rom	1d70019179a59a566a0bb5d3f2845544	FALSE	5	ST010 co-processor firmware	FALSE	All
+mesen-s_libretro	Super Nintendo Entertainment System	DSP1B co-processor firmware	dsp1b.program.rom	d10f446888e097cbf500f3f663cf4f6d	FALSE	1	DSP1B co-processor firmware	FALSE	All
+mesen-s_libretro	Super Nintendo Entertainment System	DSP2 co-processor firmware	dsp2.data.rom	e9417e29223b139c3c4b635a2a3b8744	FALSE	2	DSP2 co-processor firmware	FALSE	All
+mesen-s_libretro	Super Nintendo Entertainment System	ST011 co-processor firmware	st011.data.rom	10bd3f4aa949737ab9836512c35bcc29	FALSE	6	ST011 co-processor firmware	FALSE	All
+mesen-s_libretro	Super Nintendo Entertainment System	DSP2 co-processor firmware	dsp2.program.rom	aa6e5922a3ed5ded54f24247c11143c5	FALSE	2	DSP2 co-processor firmware	FALSE	All
+mesen-s_libretro	Super Nintendo Entertainment System	DSP3 co-processor firmware	dsp3.data.rom	0a81210c0a940b997dd9843281008ee6	FALSE	3	DSP3 co-processor firmware	FALSE	All
+mesen-s_libretro	Super Nintendo Entertainment System	ST011 co-processor firmware	st011.program.rom	95222ebf1c0c2990bcf25db43743f032	FALSE	6	ST011 co-processor firmware	FALSE	All
+mesen-s_libretro	Super Nintendo Entertainment System	DSP3 co-processor firmware	dsp3.program.rom	d99ca4562818d49cee1f242705bba6f8	FALSE	3	DSP3 co-processor firmware	FALSE	All
+mesen-s_libretro	Super Nintendo Entertainment System	DSP4 co-processor firmware	dsp4.data.rom	ee4990879eb68e3cbca239c5bc20303d	FALSE	4	DSP4 co-processor firmware	FALSE	All
+mesen-s_libretro	Super Nintendo Entertainment System	DSP4 co-processor firmware	dsp4.program.rom	a151023b948b90ffc23a5b594bb6fef2	FALSE	4	DSP4 co-processor firmware	FALSE	All
+mesen-s_libretro		GB Boot Image	dmg_boot.bin		FALSE				
+mesen-s_libretro		GBC Boot Image	cgb_boot.bin		FALSE				
+mesen-s_libretro		SGB Boot Image	sgb_boot.bin		FALSE				
+mesen-s_libretro		SGB2 Boot Image	sgb2_boot.bin		FALSE				
+mesen-s_libretro	Super Nintendo Entertainment System	SGB2 ROM	SGB2.sfc	8ecd73eb4edf7ed7e81aef1be80031d5	FALSE				
+mesen-s_libretro	Nintendo Satellaview	Satellaview Boot ROM	BS-X.bin	fed4d8242cfbed61343d53d48432aced	FALSE				
+mgba_libretro		Game Boy Advance BIOS	gba_bios.bin	a860e8c0b6d573d191e4ec7db1b1e4f6	FALSE				
+mgba_libretro		Game Boy BIOS	gb_bios.bin	32fbbd84168d3482956eb3c5051637f5	FALSE				
+mgba_libretro		Game Boy Color BIOS	gbc_bios.bin	dbfce9db9deaa2567f6a84fde55f9680	FALSE				
+mgba_libretro		Super Game Boy BIOS	sgb_bios.bin		FALSE				
+minivmac_libretro		MacII.ROM	MacII.ROM	66223be1497460f1e60885eeb35e03cc	TRUE				
+mu_libretro		Palm OS 4.0	palmos40-en-m500.rom		FALSE				
+mu_libretro		Palm OS 4.1	palmos41-en-m515.rom		TRUE				
+mu_libretro		Palm OS 5.2.1	palmos52-en-t3.rom		FALSE				
+mu_libretro		Palm OS 6.0	palmos60-en-t3.rom		FALSE				
+mu_libretro		MC68VZ328 UART Bootloader	bootloader-dbvz.rom		FALSE				
+neocd_libretro		Front Loader BIOS	neocd/neocd_f.rom	8834880c33164ccbe6476b559f3e37de	FALSE	0	BIOS	TRUE	Any
+neocd_libretro		Front Loader BIOS (SMKDAN)	neocd/neocd_sf.rom	043d76d5f0ef836500700c34faef774d	FALSE	0	BIOS	TRUE	Any
+neocd_libretro		Front Loader BIOS (MAME)	neocd/front-sp1.bin	5c2366f25ff92d71788468ca492ebeca	FALSE	0	BIOS	TRUE	Any
+neocd_libretro		Top Loader BIOS	neocd/neocd_t.rom	de3cf45d227ad44645b22aa83b49f450	FALSE	0	BIOS	TRUE	Any
+neocd_libretro		Top Loader BIOS (SMKDAN)	neocd/neocd_st.rom	f6325a33c6d63ea4b9162a3fa8c32727	FALSE	0	BIOS	TRUE	Any
+neocd_libretro		Top Loader BIOS (MAME)	neocd/top-sp1.bin	122aee210324c72e8a11116e6ef9c0d0	FALSE	0	BIOS	TRUE	Any
+neocd_libretro		CDZ BIOS	neocd/neocd_z.rom	11526d58d4c524daef7d5d677dc6b004	FALSE	0	BIOS	TRUE	Any
+neocd_libretro		CDZ BIOS (SMKDAN)	neocd/neocd_sz.rom	971ee8a36fb72da57aed01758f0a37f5	FALSE	0	BIOS	TRUE	Any
+neocd_libretro		CDZ BIOS (MAME)	neocd/neocd.bin	f39572af7584cb5b3f70ae8cc848aba2	FALSE	0	BIOS	TRUE	Any
+neocd_libretro		Y-ZOOM ROM	neocd/ng-lo.rom		FALSE	0	BIOS	TRUE	Any
+neocd_libretro		Y-ZOOM ROM (MAME)	neocd/000-lo.lo	fc7599f3f871578fe9a0453662d1c966	TRUE				
+neocd_libretro		Universe BIOS 3.2	neocd/uni-bioscd.rom	08ca8b2dba6662e8024f9e789711c6fc	FALSE	0	BIOS	TRUE	Any
+nestopia_libretro	Nintendo Famicom Disk System	Family Computer Disk System BIOS	disksys.rom	ca30b50f880eb660a320674ed365ef7a	TRUE				
+np2kai_libretro		needed to display text	np2kai/font.bmp		TRUE				
+np2kai_libretro		alt font file	np2kai/FONT.ROM		TRUE				
+np2kai_libretro		np2kai/bios.rom	np2kai/bios.rom		TRUE				
+np2kai_libretro		np2kai/itf.rom	np2kai/itf.rom		TRUE				
+np2kai_libretro		np2kai/sound.rom	np2kai/sound.rom		TRUE				
+np2kai_libretro		YM2608 rhythm sample	np2kai/2608_BD.WAV		FALSE				
+np2kai_libretro		YM2608 rhythm sample	np2kai/2608_SD.WAV		FALSE				
+np2kai_libretro		YM2608 rhythm sample	np2kai/2608_TOP.WAV		FALSE				
+np2kai_libretro		YM2608 rhythm sample	np2kai/2608_HH.WAV		FALSE				
+np2kai_libretro		YM2608 rhythm sample	np2kai/2608_TOM.WAV		FALSE				
+np2kai_libretro		YM2608 rhythm sample	np2kai/2608_RIM.WAV		FALSE				
+numero_libretro		TI-83 Silver Edition	ti83se.rom	c6ff8204c5c81b7be34614dbbd690c8b	FALSE	0	BIOS	TRUE	Any
+numero_libretro		TI-83 Plus	ti83plus.rom	8011181f810b5ec4e9d6a03f0e14257a	FALSE	0	BIOS	TRUE	Any
+numero_libretro		TI-83	ti83.rom	d4448d09bbfde687c04f9e3310e023ab	FALSE	0	BIOS	TRUE	Any
+o2em_libretro		Odyssey2 BIOS - G7000 model	o2rom.bin	562d5ebf9e030a40d6fabfc2f33139fd	TRUE				
+o2em_libretro		Videopac French BIOS - G7000 model	c52.bin	f1071cdb0b6b10dde94d3bc8a6146387	TRUE	0	Videopac Regional BIOS	FALSE	Any
+o2em_libretro		Videopac+ European BIOS - G7400 model	g7400.bin	c500ff71236068e0dc0d0603d265ae76	TRUE	0	Videopac Regional BIOS	FALSE	Any
+o2em_libretro		Videopac+ French BIOS - G7400 model	jopac.bin	279008e4a0db2dc5f1c048853b033828	TRUE	0	Videopac Regional BIOS	FALSE	Any
+opera_libretro		Panasonic FZ-1 BIOS	panafz1.bin	f47264dd47fe30f73ab3c010015c155b	FALSE	0	BIOS	TRUE	Any
+opera_libretro		Panasonic FZ-10 BIOS	panafz10.bin	51f2f43ae2f3508a14d9f56597e2d3ce	FALSE	0	BIOS	TRUE	Any
+opera_libretro		Panasonic FZ-10 BIOS [Encryption Check Disabled]	panafz10-norsa.bin	1477bda80dc33731a65468c1f5bcbee9	FALSE	0	BIOS	TRUE	Any
+opera_libretro		Panasonic FZ-10E ANVIL BIOS	panafz10e-anvil.bin	a48e6746bd7edec0f40cff078f0bb19f	FALSE	0	BIOS	TRUE	Any
+opera_libretro		Panasonic FZ-10E ANVIL BIOS [Encryption Check Disabled]	panafz10e-anvil-norsa.bin	cf11bbb5a16d7af9875cca9de9a15e09	FALSE	0	BIOS	TRUE	Any
+opera_libretro		Goldstar GDO-101M BIOS	goldstar.bin	8639fd5e549bd6238cfee79e3e749114	FALSE	0	BIOS	TRUE	Any
+opera_libretro		Sanyo Try IMP-21J BIOS	sanyotry.bin	35fa1a1ebaaeea286dc5cd15487c13ea	FALSE	0	BIOS	TRUE	Any
+opera_libretro		Shootout At Old Tucson BIOS	3do_arcade_saot.bin	8970fc987ab89a7f64da9f8a8c4333ff	FALSE	0	BIOS	TRUE	Any
+opera_libretro		Panasonic FZ-1 Kanji Font ROM	panafz1-kanji.bin	b8dc97f778a6245c58e064b0312e8281	FALSE	0	BIOS	TRUE	Any
+opera_libretro		Panasonic FZ-10JA Kanji Font ROM	panafz10ja-anvil-kanji.bin	428577250f43edc902ea239c50d2240d	FALSE	0	BIOS	TRUE	Any
+opera_libretro		Panasonic FZ-1J BIOS	panafz1j.bin	a496cfdded3da562759be3561317b605	FALSE	0	BIOS	TRUE	Any
+opera_libretro		Panasonic FZ-1J BIOS [Encryption Check Disabled]	panafz1j-norsa.bin	f6c71de7470d16abe4f71b1444883dc8	FALSE	0	BIOS	TRUE	Any
+opera_libretro		Panasonic FZ-1J Kanji Font ROM	panafz1j-kanji.bin	c23fb5d5e6bb1c240d02cf968972be37	FALSE	0	BIOS	TRUE	Any
+mupen64plus_next_libretro	Nintendo 64DD	64DD IPL ROM	64DD_IPL.bin	8d3d9f294b6e174bc7b1d2fd1c727530	TRUE				
+parallel_n64_debug_libretro	Nintendo 64DD	64DD IPL ROM	64DD_IPL.bin	8d3d9f294b6e174bc7b1d2fd1c727530	TRUE				
+parallel_n64_libretro	Nintendo 64DD	64DD IPL ROM	64DD_IPL.bin	8d3d9f294b6e174bc7b1d2fd1c727530	TRUE				
+pcsx_rearmed_interpreter_libretro		PS1 JP BIOS	scph5500.bin	8dd7d5296a650fac7319bce665a6a53c	FALSE	0	Regional BIOS	TRUE	Any
+pcsx_rearmed_interpreter_libretro		PS1 US BIOS	scph5501.bin	490f666e1afb15b7362b406ed1cea246	FALSE	0	Regional BIOS	TRUE	Any
+pcsx_rearmed_interpreter_libretro		PS1 EU BIOS	scph5502.bin	32736f17079d0b2b7024407c39bd3050	FALSE	0	Regional BIOS	TRUE	Any
+pcsx_rearmed_libretro		PS1 JP BIOS	scph5500.bin	8dd7d5296a650fac7319bce665a6a53c	FALSE	0	Regional BIOS	TRUE	Any
+pcsx_rearmed_libretro		PS1 US BIOS	scph5501.bin	490f666e1afb15b7362b406ed1cea246	FALSE	0	Regional BIOS	TRUE	Any
+pcsx_rearmed_libretro		PS1 EU BIOS	scph5502.bin	32736f17079d0b2b7024407c39bd3050	FALSE	0	Regional BIOS	TRUE	Any
+pcsx_rearmed_neon_libretro		PS1 JP BIOS	scph5500.bin	8dd7d5296a650fac7319bce665a6a53c	FALSE	0	Regional BIOS	TRUE	Any
+pcsx_rearmed_neon_libretro		PS1 US BIOS	scph5501.bin	490f666e1afb15b7362b406ed1cea246	FALSE	0	Regional BIOS	TRUE	Any
+pcsx_rearmed_neon_libretro		PS1 EU BIOS	scph5502.bin	32736f17079d0b2b7024407c39bd3050	FALSE	0	Regional BIOS	TRUE	Any
+pcsx1_libretro		PS1 JP BIOS	scph5500.bin	8dd7d5296a650fac7319bce665a6a53c	FALSE	0	Regional BIOS	TRUE	Any
+pcsx1_libretro		PS1 US BIOS	scph5501.bin	490f666e1afb15b7362b406ed1cea246	FALSE	0	Regional BIOS	TRUE	Any
+pcsx1_libretro		PS1 EU BIOS	scph5502.bin	32736f17079d0b2b7024407c39bd3050	FALSE	0	Regional BIOS	TRUE	Any
+picodrive_libretro	Sega CD	MegaCD EU BIOS	bios_CD_E.bin	e66fa1dc5820d254611fdcdba0662372	FALSE	0	Regional BIOS	TRUE	Any
+picodrive_libretro	Sega CD	SegaCD US BIOS	bios_CD_U.bin	2efd74e3232ff260e371b99f84024f7f	FALSE	0	Regional BIOS	TRUE	Any
+picodrive_libretro	Sega CD	MegaCD JP BIOS	bios_CD_J.bin	278a9397d192149e84e820ac621a8edd	FALSE	0	Regional BIOS	TRUE	Any
+pokemini_libretro		Pokemon Mini BIOS	bios.min	1e4fb124a3a886865acb574f388c803d	FALSE				
+ppsspp_libretro		PPSSPP Data ROM	PPSSPP/ppge_atlas.zim		FALSE				
+prosystem_libretro		7800 BIOS	7800 BIOS (U).rom	0763f1ffb006ddbe32e52d497ee848ae	FALSE				
+puae_libretro	Commodore Amiga	A500-A2000 KS v1.2 rev 33.180	kick33180.A500	85ad74194e87c08904327de1a9443b7a	FALSE	0	Commodore Amiga BIOS	TRUE	Any
+puae_libretro	Commodore Amiga	A500-A2000-CDTV KS v1.3 rev 34.005	kick34005.A500	82a21c1890cae844b3df741f2762d48d	TRUE	0	Commodore Amiga BIOS	TRUE	Any
+puae_libretro	Commodore Amiga	A500+ KS v2.04 rev 37.175	kick37175.A500	dc10d7bdd1b6f450773dfb558477c230	FALSE	0	Commodore Amiga BIOS	TRUE	Any
+puae_libretro	Commodore Amiga	A600 KS v2.05 rev 37.350	kick37350.A600	465646c9b6729f77eea5314d1f057951	FALSE	0	Commodore Amiga BIOS	TRUE	Any
+puae_libretro	Commodore Amiga	A600-A2000 KS v3.1 rev 40.063	kick40063.A600	e40a5dfb3d017ba8779faba30cbd1c8e	FALSE	0	Commodore Amiga BIOS	TRUE	Any
+puae_libretro	Commodore Amiga	A1200 KS v3.0 rev 39.106	kick39106.A1200	b7cc148386aa631136f510cd29e42fc3	FALSE	0	Commodore Amiga BIOS	TRUE	Any
+puae_libretro	Commodore Amiga	A1200 KS v3.1 rev 40.068	kick40068.A1200	646773759326fbac3b2311fd8c8793ee	TRUE	0	Commodore Amiga BIOS	TRUE	Any
+puae_libretro	Commodore Amiga	A4000 KS v3.0 rev 39.106	kick39106.A4000	9b8bdd5a3fd32c2a5a6f5b1aefc799a5	FALSE	0	Commodore Amiga BIOS	TRUE	Any
+puae_libretro	Commodore Amiga	A4000 KS v3.1 rev 40.068	kick40068.A4000	9bdedde6a4f33555b4a270c8ca53297d	FALSE	0	Commodore Amiga BIOS	TRUE	Any
+puae_libretro	Commodore CDTV	CDTV extended ROM v1.0	kick34005.CDTV	89da1838a24460e4b93f4f0c5d92d48d	TRUE				
+puae_libretro	Commodore Amiga CD32	CD32 KS v3.1 rev 40.060	kick40060.CD32	5f8924d013dd57a89cf349f4cdedc6b1	TRUE	0	Commodore Amiga CD32 BIOS	TRUE	All
+puae_libretro	Commodore Amiga CD32	CD32 extended ROM rev 40.060	kick40060.CD32.ext	bb72565701b1b6faece07d68ea5da639	TRUE	0	Commodore Amiga CD32 BIOS	TRUE	All
+puae2021_libretro	Commodore Amiga	A500-A2000 KS v1.2 rev 33.180	kick33180.A500	85ad74194e87c08904327de1a9443b7a	FALSE	0	Commodore Amiga BIOS	TRUE	Any
+puae2021_libretro	Commodore Amiga	A500-A2000-CDTV KS v1.3 rev 34.005	kick34005.A500	82a21c1890cae844b3df741f2762d48d	TRUE	0	Commodore Amiga BIOS	TRUE	Any
+puae2021_libretro	Commodore Amiga	A500+ KS v2.04 rev 37.175	kick37175.A500	dc10d7bdd1b6f450773dfb558477c230	FALSE	0	Commodore Amiga BIOS	TRUE	Any
+puae2021_libretro	Commodore Amiga	A600 KS v2.05 rev 37.350	kick37350.A600	465646c9b6729f77eea5314d1f057951	FALSE	0	Commodore Amiga BIOS	TRUE	Any
+puae2021_libretro	Commodore Amiga	A600-A2000 KS v3.1 rev 40.063	kick40063.A600	e40a5dfb3d017ba8779faba30cbd1c8e	FALSE	0	Commodore Amiga BIOS	TRUE	Any
+puae2021_libretro	Commodore Amiga	A1200 KS v3.0 rev 39.106	kick39106.A1200	b7cc148386aa631136f510cd29e42fc3	FALSE	0	Commodore Amiga BIOS	TRUE	Any
+puae2021_libretro	Commodore Amiga	A1200 KS v3.1 rev 40.068	kick40068.A1200	646773759326fbac3b2311fd8c8793ee	TRUE	0	Commodore Amiga BIOS	TRUE	Any
+puae2021_libretro	Commodore Amiga	A4000 KS v3.0 rev 39.106	kick39106.A4000	9b8bdd5a3fd32c2a5a6f5b1aefc799a5	FALSE	0	Commodore Amiga BIOS	TRUE	Any
+puae2021_libretro	Commodore Amiga	A4000 KS v3.1 rev 40.068	kick40068.A4000	9bdedde6a4f33555b4a270c8ca53297d	FALSE	0	Commodore Amiga BIOS	TRUE	Any
+puae2021_libretro	Commodore CDTV	CDTV extended ROM v1.0	kick34005.CDTV	89da1838a24460e4b93f4f0c5d92d48d	TRUE				
+puae2021_libretro	Commodore Amiga CD32	CD32 KS v3.1 rev 40.060	kick40060.CD32	5f8924d013dd57a89cf349f4cdedc6b1	TRUE	0	Commodore Amiga CD32 BIOS	TRUE	All
+puae2021_libretro	Commodore Amiga CD32	CD32 extended ROM rev 40.060	kick40060.CD32.ext	bb72565701b1b6faece07d68ea5da639	TRUE	0	Commodore Amiga CD32 BIOS	TRUE	All
+px68k_libretro		X68000 BIOS	keropi/iplrom.dat		TRUE				
+px68k_libretro		X68000 BIOS 2	keropi/cgrom.dat		TRUE				
+px68k_libretro		X68000 BIOS 3	keropi/iplrom30.dat		FALSE				
+quasi88_libretro		Main BIOS	quasi88/n88.rom		TRUE				
+quasi88_libretro		Extension BIOS 1	quasi88/n88_0.rom		TRUE				
+quasi88_libretro		Extension BIOS 2	quasi88/n88_1.rom		FALSE				
+quasi88_libretro		Extension BIOS 3	quasi88/n88_2.rom		FALSE				
+quasi88_libretro		Extension BIOS 4	quasi88/n88_3.rom		FALSE				
+quasi88_libretro		N Basic BIOS	quasi88/n88n.rom		FALSE				
+quasi88_libretro		Sub BIOS	quasi88/disk.rom		FALSE				
+quasi88_libretro		Kanji Font 1	quasi88/n88knj1.rom		FALSE				
+quasi88_libretro		Kanji Font 2	quasi88/n88knj2.rom		FALSE				
+quasi88_libretro		Jisho	quasi88/n88jisho.rom		FALSE				
+retrodream_libretro		Dreamcast BIOS	dc/boot.bin	e10c53c2f8b90bab96ead2d368858623	TRUE				
+retrodream_libretro		Date/Time/Language	dc/flash.bin	0a93f7940c455905bea6e392dfde92a4	TRUE				
+same_cdi_libretro		same_cdi/bios/cdimono1.zip	same_cdi/bios/cdimono1.zip		TRUE				
+same_cdi_libretro		same_cdi/bios/cdimono2.zip	same_cdi/bios/cdimono2.zip		FALSE				
+same_cdi_libretro		same_cdi/bios/cdibios.zip	same_cdi/bios/cdibios.zip		FALSE				
+sameboy_libretro		Game Boy boot ROM	dmg_boot.bin	32fbbd84168d3482956eb3c5051637f5	FALSE				
+sameboy_libretro		Game Boy Color boot ROM	cgb_boot.bin	dbfce9db9deaa2567f6a84fde55f9680	FALSE				
+scummvm_libretro		scummclassic.zip	scummvm/theme/scummclassic.zip		FALSE				
+scummvm_libretro		scummmodern.zip	scummvm/theme/scummmodern.zip		FALSE				
+scummvm_libretro		scummremastered.zip	scummvm/theme/scummremastered.zip		FALSE				
+scummvm_libretro		residualvm.zip	scummvm/theme/residualvm.zip		FALSE				
+scummvm_libretro		gui-icons.dat	scummvm/theme/gui-icons.dat		FALSE				
+scummvm_libretro		shaders.dat	scummvm/theme/shaders.dat		FALSE				
+scummvm_libretro		translations.dat	scummvm/theme/translations.dat		FALSE				
+scummvm_libretro		achievements.dat	scummvm/extra/achievements.dat		FALSE				
+scummvm_libretro		encoding.dat	scummvm/extra/encoding.dat		FALSE				
+scummvm_libretro		freescape.dat	scummvm/extra/freescape.dat		FALSE				
+scummvm_libretro		grim-patch.lab	scummvm/extra/grim-patch.lab		FALSE				
+scummvm_libretro		monkey4-patch.m4b	scummvm/extra/monkey4-patch.m4b		FALSE				
+scummvm_libretro		myst3.dat	scummvm/extra/myst3.dat		FALSE				
+scummvm_libretro		fonts.dat	scummvm/extra/fonts.dat		FALSE				
+scummvm_libretro		macgui.dat	scummvm/extra/macgui.dat		FALSE				
+scummvm_libretro		access.dat	scummvm/extra/access.dat		FALSE				
+scummvm_libretro		cryo.dat	scummvm/extra/cryo.dat		FALSE				
+scummvm_libretro		cryomni3d.dat	scummvm/extra/cryomni3d.dat		FALSE				
+scummvm_libretro		drascula.dat	scummvm/extra/drascula.dat		FALSE				
+scummvm_libretro		hadesch_translations.dat	scummvm/extra/hadesch_translations.dat		FALSE				
+scummvm_libretro		hugo.dat	scummvm/extra/hugo.dat		FALSE				
+scummvm_libretro		kyra.dat	scummvm/extra/kyra.dat		FALSE				
+scummvm_libretro		lure.dat	scummvm/extra/lure.dat		FALSE				
+scummvm_libretro		macventure.dat	scummvm/extra/macventure.dat		FALSE				
+scummvm_libretro		mort.dat	scummvm/extra/mort.dat		FALSE				
+scummvm_libretro		nancy.dat	scummvm/extra/nancy.dat		FALSE				
+scummvm_libretro		neverhood.dat	scummvm/extra/neverhood.dat		FALSE				
+scummvm_libretro		queen.tbl	scummvm/extra/queen.tbl		FALSE				
+scummvm_libretro		sky.cpt	scummvm/extra/sky.cpt		FALSE				
+scummvm_libretro		supernova.dat	scummvm/extra/supernova.dat		FALSE				
+scummvm_libretro		teenagent.dat	scummvm/extra/teenagent.dat		FALSE				
+scummvm_libretro		titanic.dat	scummvm/extra/titanic.dat		FALSE				
+scummvm_libretro		tony.dat	scummvm/extra/tony.dat		FALSE				
+scummvm_libretro		toon.dat	scummvm/extra/toon.dat		FALSE				
+scummvm_libretro		ultima.dat	scummvm/extra/ultima.dat		FALSE				
+scummvm_libretro		wintermute.zip	scummvm/extra/wintermute.zip		FALSE				
+scummvm_libretro		mm.dat	scummvm/extra/mm.dat		FALSE				
+scummvm_libretro		vkeybd_default.zip	scummvm/extra/vkeybd_default.zip		FALSE				
+scummvm_libretro		Roland_SC-55.sf2	scummvm/extra/Roland_SC-55.sf2		FALSE				
+smsplus_libretro		Master System BIOS	bios.sms		FALSE				
+smsplus_libretro		Colecovision BIOS	BIOS.col		FALSE				
+snes9x_libretro	Nintendo Satellaview	Satellaview Boot ROM	BS-X.bin	fed4d8242cfbed61343d53d48432aced	FALSE				
+snes9x_libretro		Sufami Turbo (Japan)	STBIOS.bin	d3a44ba7d42a74d3ac58cb9c14c6a5ca	FALSE				
+squirreljme_libretro		SquirrelJME ROM	squirreljme.sqc		FALSE				
+swanstation_libretro		PSP PS1 BIOS	psxonpsp660.bin	c53ca5908936d412331790f4426c6c33	FALSE				
+swanstation_libretro		PS1 JP BIOS	scph5500.bin	8dd7d5296a650fac7319bce665a6a53c	FALSE	0	Regional BIOS	TRUE	Any
+swanstation_libretro		PS1 US BIOS	scph5501.bin	490f666e1afb15b7362b406ed1cea246	FALSE	0	Regional BIOS	TRUE	Any
+swanstation_libretro		PS1 EU BIOS	scph5502.bin	32736f17079d0b2b7024407c39bd3050	FALSE	0	Regional BIOS	TRUE	Any
+swanstation_libretro		PS3 PS1 BIOS	ps1_rom.bin	81bbe60ba7a3d1cea1d48c14cbcc647b	FALSE				
+tempgba_libretro		Game Boy Advance BIOS	gba_bios.bin	a860e8c0b6d573d191e4ec7db1b1e4f6	TRUE				
+vba_next_libretro		Game Boy Advance BIOS	gba_bios.bin	a860e8c0b6d573d191e4ec7db1b1e4f6	FALSE				
+vbam_libretro		Game Boy BIOS	gb_bios.bin	32fbbd84168d3482956eb3c5051637f5	FALSE				
+vbam_libretro		Game Boy Color BIOS	gbc_bios.bin	dbfce9db9deaa2567f6a84fde55f9680	FALSE				
+vice_x128_libretro		JiffyDOS C128 Kernal	vice/JiffyDOS_C128.bin	cbbd1bbcb5e4fd8046b6030ab71fc021	FALSE				
+vice_x128_libretro		JiffyDOS C64 Kernal	vice/JiffyDOS_C64.bin	be09394f0576cf81fa8bacf634daf9a2	FALSE				
+vice_x128_libretro		JiffyDOS 1541 drive BIOS	vice/JiffyDOS_1541-II.bin	1b1e985ea5325a1f46eb7fd9681707bf	FALSE				
+vice_x128_libretro		JiffyDOS 1571 drive BIOS	vice/JiffyDOS_1571_repl310654.bin	41c6cc528e9515ffd0ed9b180f8467c0	FALSE				
+vice_x128_libretro		JiffyDOS 1581 drive BIOS	vice/JiffyDOS_1581.bin	20b6885c6dc2d42c38754a365b043d71	FALSE				
+vice_x64_libretro		JiffyDOS C64 Kernal	vice/JiffyDOS_C64.bin	be09394f0576cf81fa8bacf634daf9a2	FALSE				
+vice_x64_libretro		JiffyDOS 1541 drive BIOS	vice/JiffyDOS_1541-II.bin	1b1e985ea5325a1f46eb7fd9681707bf	FALSE				
+vice_x64_libretro		JiffyDOS 1571 drive BIOS	vice/JiffyDOS_1571_repl310654.bin	41c6cc528e9515ffd0ed9b180f8467c0	FALSE				
+vice_x64_libretro		JiffyDOS 1581 drive BIOS	vice/JiffyDOS_1581.bin	20b6885c6dc2d42c38754a365b043d71	FALSE				
+vice_x64dtv_libretro		JiffyDOS C64 Kernal	vice/JiffyDOS_C64.bin	be09394f0576cf81fa8bacf634daf9a2	FALSE				
+vice_x64dtv_libretro		JiffyDOS 1541 drive BIOS	vice/JiffyDOS_1541-II.bin	1b1e985ea5325a1f46eb7fd9681707bf	FALSE				
+vice_x64dtv_libretro		JiffyDOS 1571 drive BIOS	vice/JiffyDOS_1571_repl310654.bin	41c6cc528e9515ffd0ed9b180f8467c0	FALSE				
+vice_x64dtv_libretro		JiffyDOS 1581 drive BIOS	vice/JiffyDOS_1581.bin	20b6885c6dc2d42c38754a365b043d71	FALSE				
+vice_x64sc_libretro		JiffyDOS C64 Kernal	vice/JiffyDOS_C64.bin	be09394f0576cf81fa8bacf634daf9a2	FALSE				
+vice_x64sc_libretro		JiffyDOS 1541 drive BIOS	vice/JiffyDOS_1541-II.bin	1b1e985ea5325a1f46eb7fd9681707bf	FALSE				
+vice_x64sc_libretro		JiffyDOS 1571 drive BIOS	vice/JiffyDOS_1571_repl310654.bin	41c6cc528e9515ffd0ed9b180f8467c0	FALSE				
+vice_x64sc_libretro		JiffyDOS 1581 drive BIOS	vice/JiffyDOS_1581.bin	20b6885c6dc2d42c38754a365b043d71	FALSE				
+vice_xscpu64_libretro		JiffyDOS C64 Kernal	vice/JiffyDOS_C64.bin	be09394f0576cf81fa8bacf634daf9a2	FALSE				
+vice_xscpu64_libretro		JiffyDOS 1541 drive BIOS	vice/JiffyDOS_1541-II.bin	1b1e985ea5325a1f46eb7fd9681707bf	FALSE				
+vice_xscpu64_libretro		JiffyDOS 1571 drive BIOS	vice/JiffyDOS_1571_repl310654.bin	41c6cc528e9515ffd0ed9b180f8467c0	FALSE				
+vice_xscpu64_libretro		JiffyDOS 1581 drive BIOS	vice/JiffyDOS_1581.bin	20b6885c6dc2d42c38754a365b043d71	FALSE				
+vircon32_libretro		Vircon32 BIOS 1.1	StandardBios.v32	1ad96946bce7bd0422b7d9340735b248	TRUE				
+x1_libretro		Sharp X1 IPL ROM	xmil/IPLROM.X1	eeeea1cd29c6e0e8b094790ae969bfa7	FALSE				
+x1_libretro		Sharp X1 8x8 Font ROM	xmil/IPLROM.X1T	851e4a5936f17d13f8c39a980cf00d77	FALSE				
+yabasanshiro_libretro		Saturn BIOS	saturn_bios.bin	af5828fdff51384f99b3c4926be27762	TRUE				
+yabause_libretro		Saturn BIOS	saturn_bios.bin	af5828fdff51384f99b3c4926be27762	FALSE				

@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <AssemblyName>Nixx.RetroArch</AssemblyName>
+    <RootNamespace>Nixx.RetroArch</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <!-- Unbroken.LaunchBox.Windows est en x64 : on reste AnyCPU, sans l'avertissement de RAR. -->
+    <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+    <!-- Les DLL de LaunchBox citent WindowsBase 4.0 (WPF) : conflit sans effet sur ce greffon, qui n'emploie pas WPF. -->
+    <MSBuildWarningsAsMessages>$(MSBuildWarningsAsMessages);MSB3277</MSBuildWarningsAsMessages>
+    <!-- Dossier Core d'une install LaunchBox 14.0.1, pour les assemblies non vendorées : dotnet build -p:LbCore=<chemin>. -->
+    <LbCore Condition="'$(LbCore)' == ''">G:\LB1326\Core</LbCore>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Unbroken.LaunchBox.Plugins">
+      <HintPath>..\..\vendor\Unbroken.LaunchBox.Plugins.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unbroken">
+      <HintPath>$(LbCore)\Unbroken.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unbroken.LaunchBox">
+      <HintPath>$(LbCore)\Unbroken.LaunchBox.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unbroken.LaunchBox.LocalDb">
+      <HintPath>$(LbCore)\Unbroken.LaunchBox.LocalDb.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unbroken.LaunchBox.Windows">
+      <HintPath>$(LbCore)\Unbroken.LaunchBox.Windows.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>$(LbCore)\Newtonsoft.Json.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\resources\Bios_Requirements.txt" LogicalName="Nixx.RetroArch.Bios_Requirements.txt" />
+    <None Include="manifest.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>
